@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,15 +35,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="stylesheet" href="/assets/css/modules.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="stylesheet" href="/assets/css/modules.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5EFE4">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -115,7 +115,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <ul class="promesses" data-anime="gsap">
         <li data-info-cle><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M14 54l8-12c2-3 6-3 8 0"/><path d="M50 54l-8-12c-2-3-6-3-8 0"/><path d="M32 40V12"/><path d="M32 22c-6 0-10-4-10-10 6 0 10 4 10 10zM32 30c6 0 10-4 10-10-6 0-10 4-10 10z"/></svg><span>Gratuit et sans engagement</span></li><li class="masque-petit-tel"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 30L32 8l26 22"/><path d="M12 25v29h40V25"/><path d="M27 54V40a5 5 0 0 1 10 0v14"/><path d="M46 14v-5h5v10"/></svg><span>À distance ou en présentiel, dans le sud de l’Ardèche</span></li><li class="masque-petit-tel"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M8 40c0-8 5-13 12-13"/><circle cx="16" cy="17" r="6"/><path d="M56 40c0-8-5-13-12-13"/><circle cx="48" cy="17" r="6"/><path d="M26 44c2-6 10-6 12 0"/><path d="M32 44V34"/><path d="M32 36c-3-1-5-4-5-7 3 0 5 2 5 5"/><path d="M32 33c2-2 5-3 7-2-1 3-4 4-7 4"/><path d="M4 52h56"/></svg><span>Une réponse personnelle sous 48 heures</span></li>
       </ul>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="#rendez-vous" data-sans-transition data-action-principale>Prendre rendez-vous</a> <a class="lien-tel" href="tel:+33643300396">06 43 30 03 96</a></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="#rendez-vous" data-sans-transition data-action-principale data-survol="magnetique">Prendre rendez-vous</a> <a class="lien-tel" href="tel:+33643300396">06 43 30 03 96</a></p>
     </div>
     <div class="ct-fenetre" data-iris-centre>
       <figure class="media ct-media" data-grok data-effet="fenetre" style="--cadrage:50% 50%">
@@ -176,7 +176,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           </div>
           <div class="fpe__champ"><label for="rdv-message">Votre message <i aria-hidden="true">*</i></label><textarea id="rdv-message" name="message" rows="5" minlength="10" required></textarea></div>
           <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J’accepte que ces informations servent uniquement à me répondre. <i aria-hidden="true">*</i></span></label>
-          <p class="fpe__aide mention-donnees">Vos informations restent confidentielles et ne servent que dans le cadre de cet échange. Politique de confidentialité : à compléter.</p>
+          <p class="fpe__aide mention-donnees">Vos informations restent confidentielles et ne servent qu’à préparer notre premier échange.</p>
         </fieldset>
         <fieldset class="fpe__etape" data-etape="Récapitulatif" data-recap>
           <legend class="fpe__legende"><h3 class="fpe__titre">Vérifiez votre demande</h3></legend>
@@ -189,8 +189,9 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         </div>
       </form>
       <div class="fpe__fin" hidden>
-        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
-        <h3>Merci, c’est noté.</h3>
+        <span class="rdv-porte" aria-hidden="true" data-grille="retour"><svg class="icone rdv-porte-svg" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg></span>
+        <h3>La porte est ouverte.</h3>
+        <p class="rdv-merci">Merci, c’est noté.</p>
         <p data-resume></p>
         <p>Maquette : rien n’a été envoyé. Sur le site définitif, Christel vous répondrait personnellement sous 48 heures.</p>
         <div class="fpe__fin-actions">
@@ -227,6 +228,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <svg class="arche-svg pied-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
       <p class="pied-nom">Après le Seuil</p>
       <p class="pied-signature">Des lieux et des vies en transition</p>
+      <p class="pied-action"><a class="lien-fleche" href="/contact#rendez-vous" data-libelle="Contact">Premier échange offert</a></p>
     </div>
     <div>
       <p class="pied-titre">Nous contacter</p>

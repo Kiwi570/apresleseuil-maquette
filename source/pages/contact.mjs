@@ -1,7 +1,7 @@
 /* Contact : un premier échange, simplement. Fenêtre ouverte, trois promesses, formulaire de rendez-vous en quatre étapes
    (module formulaire-par-etapes), coordonnées et boussole qui tourne au défilement. */
 import { html } from '../../outils/gabarit.mjs';
-import { icone } from '../gabarits/icones.mjs';
+import { icone, porte } from '../gabarits/icones.mjs';
 
 export const page = { cle: 'contact', fichier: 'contact', imagePartage: 'grok/contact-ouverture-1280.webp' };
 
@@ -17,7 +17,7 @@ export default (c) => html`
       <ul class="promesses" data-anime="gsap">
         ${[['p1', 'mains'], ['p2', 'maison'], ['p3', 'echange']].map(([k, ic], i) => html`<li${i === 0 ? html` data-info-cle` : html` class="masque-petit-tel"`}>${icone(ic)}<span>${c.t('contact.' + k)}</span></li>`)}
       </ul>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="#rendez-vous" data-sans-transition data-action-principale>${c.t('contact.action')}</a> <a class="lien-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="#rendez-vous" data-sans-transition data-action-principale data-survol="magnetique">${c.t('contact.action')}</a> <a class="lien-tel" href="tel:${c.site.contact.telephoneLien}">${c.site.contact.telephone}</a></p>
     </div>
     <div class="ct-fenetre" data-iris-centre>
       ${c.media({ nom: 'grok/contact-ouverture', alt: c.donnees.images['grok/contact-ouverture']?.alt || '', cadrage: '50% 50%', priorite: true, classe: 'ct-media', sizes: '(max-width: 760px) 90vw, 42vw', attrs: 'data-effet="fenetre"' })}
@@ -93,8 +93,9 @@ export default (c) => html`
         </div>
       </form>
       <div class="fpe__fin" hidden>
-        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
-        <h3>${t(c, 'merci')}</h3>
+        <span class="rdv-porte" aria-hidden="true" data-grille="retour">${porte('rdv-porte-svg')}</span>
+        <h3>${t(c, 'merciTitre')}</h3>
+        <p class="rdv-merci">${t(c, 'merci')}</p>
         <p data-resume></p>
         <p>${t(c, 'merciTexte')}</p>
         <div class="fpe__fin-actions">

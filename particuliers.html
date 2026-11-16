@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5EFE4">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -119,7 +119,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <p class="surtitre" data-anime="gsap">Particuliers</p>
       <h1 class="p-titre"><span class="ligne-masque"><span class="titre-ligne">Accompagner</span></span><span class="ligne-masque"><span class="titre-ligne"><em>vos passages</em></span></span></h1>
       <p class="p-intro masque-ecran-bas masque-petit-tel" data-anime="gsap">Un déménagement, une succession, une maison qui ne vous ressemble plus, une période où tout bouge : des accompagnements concrets, pour avancer sans avoir à tout porter seul·e.</p>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale>Premier échange offert</a></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale data-survol="magnetique">Premier échange offert</a></p>
       <p class="info-cle" data-info-cle data-anime="gsap">Premier échange offert et sans engagement</p>
     </div>
     <nav class="portes-sommaire" aria-label="Les accompagnements" data-iris-centre>
@@ -139,6 +139,12 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </nav>
   </div>
 </section>
+<nav class="suivi" data-grille="fil" data-sommaire aria-label="Sur cette page">
+  <ul>
+    <li><a href="#depart" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Nouveau départ</span></a></li><li><a href="#chez-soi" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Chez soi</span></a></li><li><a href="#faire-de-la-place" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Faire de la place</span></a></li><li><a href="#retrouver-un-cap" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Retrouver un cap</span></a></li><li><a href="#ateliers" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Ateliers</span></a></li>
+    <li><a href="#villa" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">Séjourner</span></a></li>
+  </ul>
+</nav>
 <section class="acc acc--depart" id="depart">
   <div class="conteneur acc-grille">
     <div class="acc-image cadre-arche">
@@ -207,7 +213,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   <div class="conteneur place-grille">
     <div class="place-tete">
       <p class="etiquette" data-anime>Tri &amp; désencombrement</p>
-      <h2 data-anime="lignes">Faire de la place</h2>
+      <h2 class="titre-range" data-grille="typo"><span class="visuellement-cache">Faire de la place</span><span class="titre-range-lettres" aria-hidden="true" data-superpose><span class="tr-mot"><span class="tr-l">F</span><span class="tr-l">a</span><span class="tr-l">i</span><span class="tr-l">r</span><span class="tr-l">e</span></span> <span class="tr-mot"><span class="tr-l">d</span><span class="tr-l">e</span></span> <span class="tr-mot"><span class="tr-l">l</span><span class="tr-l">a</span></span> <span class="tr-mot"><span class="tr-l">p</span><span class="tr-l">l</span><span class="tr-l">a</span><span class="tr-l">c</span><span class="tr-l">e</span></span></span></h2>
       <p class="sous-titre" data-anime>Alléger son intérieur pour retrouver de l’espace</p>
       <ul class="liste-or" data-anime="cascade"><li>Retrouver un intérieur plus serein et fonctionnel</li><li>Faire du tri sans vous sentir dépassé·e</li><li>Vous séparer d’objets chargés de souvenirs</li><li>Réorganiser votre espace selon vos besoins actuels</li></ul>
     </div>
@@ -304,13 +310,15 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 </section>
 <section class="fin" id="fin">
   <div class="fin-soleil" data-effet="soleil" aria-hidden="true">
-    <svg viewBox="-200 -200 400 400" class="soleil-rayons" data-visuel>
-      <line x1="110.0" y1="0.0" x2="190.0" y2="0.0"/><line x1="115.9" y1="31.1" x2="154.5" y2="41.4"/><line x1="95.3" y1="55.0" x2="164.5" y2="95.0"/><line x1="84.9" y1="84.9" x2="113.1" y2="113.1"/><line x1="55.0" y1="95.3" x2="95.0" y2="164.5"/><line x1="31.1" y1="115.9" x2="41.4" y2="154.5"/><line x1="0.0" y1="110.0" x2="0.0" y2="190.0"/><line x1="-31.1" y1="115.9" x2="-41.4" y2="154.5"/><line x1="-55.0" y1="95.3" x2="-95.0" y2="164.5"/><line x1="-84.9" y1="84.9" x2="-113.1" y2="113.1"/><line x1="-95.3" y1="55.0" x2="-164.5" y2="95.0"/><line x1="-115.9" y1="31.1" x2="-154.5" y2="41.4"/><line x1="-110.0" y1="0.0" x2="-190.0" y2="0.0"/><line x1="-115.9" y1="-31.1" x2="-154.5" y2="-41.4"/><line x1="-95.3" y1="-55.0" x2="-164.5" y2="-95.0"/><line x1="-84.9" y1="-84.9" x2="-113.1" y2="-113.1"/><line x1="-55.0" y1="-95.3" x2="-95.0" y2="-164.5"/><line x1="-31.1" y1="-115.9" x2="-41.4" y2="-154.5"/><line x1="-0.0" y1="-110.0" x2="-0.0" y2="-190.0"/><line x1="31.1" y1="-115.9" x2="41.4" y2="-154.5"/><line x1="55.0" y1="-95.3" x2="95.0" y2="-164.5"/><line x1="84.9" y1="-84.9" x2="113.1" y2="-113.1"/><line x1="95.3" y1="-55.0" x2="164.5" y2="-95.0"/><line x1="115.9" y1="-31.1" x2="154.5" y2="-41.4"/>
+    <svg viewBox="-300 -300 600 300" class="soleil" data-visuel>
+      <defs><radialGradient id="soleil-halo" cx="0" cy="0" r="140" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E9C88C" stop-opacity=".95"/><stop offset=".72" stop-color="#D7B072" stop-opacity=".55"/><stop offset="1" stop-color="#D7B072" stop-opacity="0"/></radialGradient></defs>
+      <g class="soleil-rayons"><line x1="-150.0" y1="0.0" x2="-280.0" y2="0.0"/><line x1="-147.1" y1="-29.3" x2="-225.6" y2="-44.9"/><line x1="-138.6" y1="-57.4" x2="-258.7" y2="-107.2"/><line x1="-124.7" y1="-83.3" x2="-191.2" y2="-127.8"/><line x1="-106.1" y1="-106.1" x2="-198.0" y2="-198.0"/><line x1="-83.3" y1="-124.7" x2="-127.8" y2="-191.2"/><line x1="-57.4" y1="-138.6" x2="-107.2" y2="-258.7"/><line x1="-29.3" y1="-147.1" x2="-44.9" y2="-225.6"/><line x1="-0.0" y1="-150.0" x2="-0.0" y2="-280.0"/><line x1="29.3" y1="-147.1" x2="44.9" y2="-225.6"/><line x1="57.4" y1="-138.6" x2="107.2" y2="-258.7"/><line x1="83.3" y1="-124.7" x2="127.8" y2="-191.2"/><line x1="106.1" y1="-106.1" x2="198.0" y2="-198.0"/><line x1="124.7" y1="-83.3" x2="191.2" y2="-127.8"/><line x1="138.6" y1="-57.4" x2="258.7" y2="-107.2"/><line x1="147.1" y1="-29.3" x2="225.6" y2="-44.9"/><line x1="150.0" y1="-0.0" x2="280.0" y2="-0.0"/></g>
+      <circle class="soleil-disque" cx="0" cy="0" r="120" fill="url(#soleil-halo)"/>
+      <path class="soleil-bord" d="M-120 0a120 120 0 0 1 240 0"/>
     </svg>
-    <span class="soleil-disque"></span>
   </div>
   <div class="fin-texte conteneur">
-    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path pathLength="1" d="M180 470V202a164 164 0 0 1 328 0v158"/><path pathLength="1" d="M222 418V204a122 122 0 0 1 244 0v168"/><path pathLength="1" d="M268 470V204a76 76 0 0 1 152 0v174"/><path pathLength="1" d="M180 470h88"/><path pathLength="1" d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
     <h2 data-anime="lignes">Faisons connaissance.</h2>
     <p data-anime>Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.</p>
     <p class="fin-actions" data-anime>
@@ -326,6 +334,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <svg class="arche-svg pied-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
       <p class="pied-nom">Après le Seuil</p>
       <p class="pied-signature">Des lieux et des vies en transition</p>
+      <p class="pied-action"><a class="lien-fleche" href="/contact#rendez-vous" data-libelle="Contact">Premier échange offert</a></p>
     </div>
     <div>
       <p class="pied-titre">Nous contacter</p>

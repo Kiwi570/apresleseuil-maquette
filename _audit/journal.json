@@ -107,6 +107,64 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "favoris.json absent du dépôt de la bibliothèque : liste locale recréée avec les favorites citées dans la skill. Images Grok livrées agrandies depuis des planches : contact, professionnels et cartes floues, affichées sous le quart d'écran. Zip livré sans recu/ (originaux déjà chez l'utilisateur)."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "particuliers",
+        "professionnels",
+        "a-propos",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "analyse approfondie de la v1 et améliorations v2",
+          "budget": 60,
+          "debut": "2026-11-16T23:09:00+01:00",
+          "fin": "2026-11-16T23:18:00+01:00"
+        },
+        {
+          "etape": "audit complet n°1, regard neuf et corrections",
+          "budget": 30,
+          "debut": "2026-11-16T23:18:00+01:00",
+          "fin": "2026-11-16T23:51:00+01:00"
+        },
+        {
+          "etape": "audit complet n°2 et correction",
+          "budget": 20,
+          "debut": "2026-11-16T23:51:00+01:00",
+          "fin": "2026-11-17T00:16:00+01:00"
+        },
+        {
+          "etape": "audit complet final et livraison",
+          "budget": 30,
+          "debut": "2026-11-17T00:16:00+01:00",
+          "fin": "2026-11-17T00:39:34+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "avant-apres",
+        "formulaire-par-etapes"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "echecsPremierPassage": 3,
+        "relances": 2,
+        "corrections": [
+          "galerie À propos qui débordait de 320 à 780 px (tuile en arche trop large)",
+          "image de la visionneuse sans adresse avant ouverture (créée à la première ouverture)",
+          "zone de toucher du lien de fin de section sous 44 px",
+          "lettres en vrac du titre « Faire de la place » marquées data-superpose (chevauchement voulu)"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "Demande : audit complet et analyse approfondie, puis améliorations pour une version optimale."
     }
   ]
 }

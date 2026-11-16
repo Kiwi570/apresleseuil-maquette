@@ -1,0 +1,47 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 34 s
+… mesures
+  17/234
+  41/234
+  70/234
+  93/234
+  123/234
+  148/234
+  168/234
+  192/234
+  211/234
+  fait en 295 s
+… mesures:balayage
+  fait en 48 s
+… films
+  fait en 135 s
+… bords
+  fait en 65 s
+… parcours:intro
+  fait en 62 s
+… parcours:menu
+  fait en 5 s
+… parcours:liens
+  fait en 134 s
+… parcours:hauteur
+  fait en 41 s
+… parcours:projet
+  fait en 11 s
+… ecran
+  fait en 45 s
+… fluidite
+  fait en 183 s
+… mouvement
+  fait en 135 s
+… vitesse
+  fait en 16 s
+… captures
+  fait en 147 s
+… safari
+  fait en 0 s
+
+Échecs : 0 · À regarder : 13 · Non lancé : 1
+Rapport : /home/claude/apresleseuil-maquette/_audit/rapport/rapport.md (passe 20261116-231607-complet)
+FIN 0

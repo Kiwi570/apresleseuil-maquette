@@ -26,7 +26,8 @@
       "texte": "Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.",
       "action": "Prendre rendez-vous",
       "ou": "ou appelez le"
-    }
+    },
+    "piedAction": "Premier échange offert"
   },
   "pages": {
     "accueil": {
@@ -247,7 +248,8 @@
       "texte": "La Villa est en rénovation. Bientôt, nous pourrons vous y accueillir dans un cocon de bienveillance et d’échange.",
       "badge": "En rénovation",
       "action": "Être tenu·e au courant"
-    }
+    },
+    "suivre": "Sur cette page"
   },
   "professionnels": {
     "surtitre": "Entreprises & équipes",
@@ -318,7 +320,14 @@
       "cuisine": "Une cuisine rénovée",
       "sejour": "Un séjour rénové",
       "valet": "Un valet de chambre",
-      "lampe": "Une suspension au crochet"
+      "lampe": "Une suspension au crochet",
+      "agrandir": "Agrandir",
+      "visionneuse": "Réalisations en grand",
+      "precedente": "Réalisation précédente",
+      "suivante": "Réalisation suivante",
+      "fermer": "Fermer",
+      "avantApres": "Voir les avant / après",
+      "avantApresTexte": "Dressing, buffet, bahut : faites glisser pour comparer."
     }
   },
   "contact": {
@@ -360,7 +369,7 @@
       "tel": "Téléphone (facultatif)",
       "message": "Votre message",
       "accord": "J’accepte que ces informations servent uniquement à me répondre.",
-      "donnees": "Vos informations restent confidentielles et ne servent que dans le cadre de cet échange. Politique de confidentialité : à compléter.",
+      "donnees": "Vos informations restent confidentielles et ne servent qu’à préparer notre premier échange.",
       "e4": "Récapitulatif",
       "e4q": "Vérifiez votre demande",
       "precedent": "Retour",
@@ -368,7 +377,8 @@
       "envoyer": "Envoyer la demande",
       "merci": "Merci, c’est noté.",
       "merciTexte": "Maquette : rien n’a été envoyé. Sur le site définitif, Christel vous répondrait personnellement sous 48 heures.",
-      "recommencer": "Nouvelle demande"
+      "recommencer": "Nouvelle demande",
+      "merciTitre": "La porte est ouverte."
     },
     "coord": {
       "titre": "Nous contacter",

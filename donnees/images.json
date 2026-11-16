@@ -7,7 +7,7 @@
     "grok": false,
     "mention": null,
     "beaute": null,
-    "empreinte": "7463d3bda630161d",
+    "empreinte": "87f99bd8adfa1383",
     "ratio": null,
     "largeurs": [
       240,
@@ -40,7 +40,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "149f65842bea4edb",
+    "empreinte": "37bb940b8fe6bac7",
     "ratio": "4:5",
     "largeurs": [
       480,
@@ -48,33 +48,33 @@
       960
     ],
     "mobile": null,
-    "cadrage": "48% 24%",
+    "cadrage": "45% 59%",
     "sujet": {
-      "x": 21,
-      "y": 0.2,
-      "l": 53,
-      "h": 56
+      "x": 0,
+      "y": 0,
+      "l": 96.2,
+      "h": 100
     },
     "zones_calmes": [
       {
-        "cote": "bas",
-        "score": 0.29,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.28,
-        "ton": "moyen"
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
       },
       {
         "cote": "droite",
-        "score": 0.28,
+        "score": 0.04,
         "ton": "clair"
       },
       {
-        "cote": "haut",
-        "score": 0.22,
-        "ton": "clair"
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
       }
     ],
     "zone_texte": null,
@@ -103,7 +103,7 @@
       "christel-640.webp": 38432,
       "christel-960.webp": 65924
     },
-    "media": "c.media({ nom: 'christel', alt: \"Christel Ketterlin, assise sur une table en bois, en chemise de lin claire\", cadrage: '48% 24%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+    "media": "c.media({ nom: 'christel', alt: \"Christel Ketterlin, assise sur une table en bois, en chemise de lin claire\", cadrage: '45% 59%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
   },
   "christel-bleu": {
     "nom": "christel-bleu",
@@ -113,7 +113,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a581aae04bec43bd",
+    "empreinte": "205da3a9cf813cd8",
     "ratio": "4:5",
     "largeurs": [
       480,
@@ -121,39 +121,39 @@
       960
     ],
     "mobile": null,
-    "cadrage": "50% 38%",
+    "cadrage": "38% 47%",
     "sujet": {
-      "x": 10.4,
-      "y": 2.1,
-      "l": 78.8,
-      "h": 67.4
+      "x": 9.1,
+      "y": 0,
+      "l": 77.3,
+      "h": 86.3
     },
     "zones_calmes": [
       {
-        "cote": "bas",
-        "score": 0.55,
+        "cote": "haut",
+        "score": 0.44,
         "ton": "sombre"
       },
       {
         "cote": "droite",
-        "score": 0.45,
+        "score": 0.43,
         "ton": "sombre"
       },
       {
-        "cote": "haut",
-        "score": 0.39,
+        "cote": "bas",
+        "score": 0.37,
         "ton": "sombre"
       },
       {
         "cote": "gauche",
-        "score": 0.36,
+        "score": 0.31,
         "ton": "sombre"
       }
     ],
     "zone_texte": null,
     "recadrage": {
       "left": 0,
-      "top": 113,
+      "top": 240,
       "width": 1024,
       "height": 1280,
       "source": [
@@ -172,11 +172,11 @@
       "christel-bleu-960.webp"
     ],
     "poids": {
-      "christel-bleu-480.webp": 21592,
-      "christel-bleu-640.webp": 33812,
-      "christel-bleu-960.webp": 64004
+      "christel-bleu-480.webp": 20236,
+      "christel-bleu-640.webp": 31372,
+      "christel-bleu-960.webp": 59906
     },
-    "media": "c.media({ nom: 'christel-bleu', alt: \"Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+    "media": "c.media({ nom: 'christel-bleu', alt: \"Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit\", cadrage: '38% 47%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
   },
   "villa": {
     "nom": "villa",
@@ -186,7 +186,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "3aee4db94d63fc67",
+    "empreinte": "35df7573f3c2aac8",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -198,41 +198,41 @@
       "largeurs": [
         640
       ],
-      "cadrage": "49% 51%"
+      "cadrage": "50% 36%"
     },
-    "cadrage": "40% 66%",
+    "cadrage": "51% 48%",
     "sujet": {
-      "x": 13.2,
-      "y": 35.3,
-      "l": 57.4,
-      "h": 62.8
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.53,
+        "score": 0.22,
         "ton": "clair"
       },
       {
         "cote": "bas",
-        "score": 0.36,
+        "score": 0.19,
         "ton": "moyen"
       },
       {
         "cote": "gauche",
-        "score": 0.28,
+        "score": 0.09,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.27,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": "haut",
     "recadrage": {
       "left": 0,
-      "top": 13,
+      "top": 0,
       "width": 1195,
       "height": 672,
       "source": [
@@ -254,12 +254,12 @@
       "villa-mobile-640.webp"
     ],
     "poids": {
-      "villa-640.webp": 42500,
-      "villa-960.webp": 87472,
-      "villa-1180.webp": 123998,
-      "villa-mobile-640.webp": 80554
+      "villa-640.webp": 41102,
+      "villa-960.webp": 84952,
+      "villa-1180.webp": 119138,
+      "villa-mobile-640.webp": 87618
     },
-    "media": "c.media({ nom: 'villa', alt: \"La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin\", cadrage: '40% 66%', cadrageMobile: '49% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+    "media": "c.media({ nom: 'villa', alt: \"La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin\", cadrage: '51% 48%', cadrageMobile: '50% 36%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
   },
   "real-cuisine": {
     "nom": "real-cuisine",
@@ -269,7 +269,7 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "86f997b8c12bcc44",
+    "empreinte": "499d4a75829b0448",
     "ratio": "4:3",
     "largeurs": [
       480,
@@ -277,38 +277,38 @@
       1200
     ],
     "mobile": null,
-    "cadrage": "50% 42%",
+    "cadrage": "56% 50%",
     "sujet": {
-      "x": 22.8,
-      "y": 27.9,
-      "l": 62.9,
-      "h": 27.9
+      "x": 15.6,
+      "y": 4.5,
+      "l": 84.4,
+      "h": 90.9
     },
     "zones_calmes": [
       {
-        "cote": "bas",
-        "score": 0.56,
+        "cote": "gauche",
+        "score": 0.46,
         "ton": "moyen"
       },
       {
-        "cote": "gauche",
-        "score": 0.55,
+        "cote": "bas",
+        "score": 0.33,
         "ton": "moyen"
       },
       {
         "cote": "haut",
-        "score": 0.32,
+        "score": 0.13,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.25,
+        "score": 0,
         "ton": "sombre"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 152,
+      "left": 223,
       "top": 0,
       "width": 1777,
       "height": 1333,
@@ -326,11 +326,11 @@
       "real-cuisine-1200.webp"
     ],
     "poids": {
-      "real-cuisine-480.webp": 16704,
-      "real-cuisine-800.webp": 35904,
-      "real-cuisine-1200.webp": 63726
+      "real-cuisine-480.webp": 17402,
+      "real-cuisine-800.webp": 37808,
+      "real-cuisine-1200.webp": 66120
     },
-    "media": "c.media({ nom: 'real-cuisine', alt: \"Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+    "media": "c.media({ nom: 'real-cuisine', alt: \"Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir\", cadrage: '56% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
   },
   "real-entree": {
     "nom": "real-entree",
@@ -340,39 +340,39 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "451286d28fabe139",
+    "empreinte": "a11fc2b10b7baa0a",
     "ratio": "3:4",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "56% 58%",
+    "cadrage": "53% 53%",
     "sujet": {
-      "x": 36.7,
-      "y": 42.1,
-      "l": 44.5,
-      "h": 57.9
+      "x": 8.3,
+      "y": 3.1,
+      "l": 91.7,
+      "h": 93.8
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.62,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.52,
-        "ton": "moyen"
-      },
-      {
-        "cote": "bas",
         "score": 0.33,
         "ton": "moyen"
       },
       {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
         "cote": "droite",
-        "score": 0.31,
+        "score": 0.09,
         "ton": "moyen"
       }
     ],
@@ -398,7 +398,7 @@
       "real-entree-480.webp": 16064,
       "real-entree-800.webp": 31308
     },
-    "media": "c.media({ nom: 'real-entree', alt: \"Entrée réaménagée avec un grand meuble bois et noir\", cadrage: '56% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+    "media": "c.media({ nom: 'real-entree', alt: \"Entrée réaménagée avec un grand meuble bois et noir\", cadrage: '53% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
   },
   "real-sejour": {
     "nom": "real-sejour",
@@ -408,39 +408,39 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "acd5167c1992d795",
+    "empreinte": "5b1af525aac47d5e",
     "ratio": "3:4",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "40% 44%",
+    "cadrage": "49% 60%",
     "sujet": {
-      "x": 22.1,
-      "y": 32.4,
-      "l": 36.8,
-      "h": 23.5
+      "x": 0,
+      "y": 18.8,
+      "l": 100,
+      "h": 81.2
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.76,
+        "score": 0.61,
         "ton": "clair"
       },
       {
-        "cote": "bas",
-        "score": 0.47,
-        "ton": "sombre"
-      },
-      {
         "cote": "droite",
-        "score": 0.43,
+        "score": 0.15,
         "ton": "moyen"
       },
       {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
         "cote": "gauche",
-        "score": 0.29,
+        "score": 0.05,
         "ton": "moyen"
       }
     ],
@@ -466,7 +466,7 @@
       "real-sejour-480.webp": 22516,
       "real-sejour-800.webp": 44104
     },
-    "media": "c.media({ nom: 'real-sejour', alt: \"Séjour rénové, îlot clair et suspension\", cadrage: '40% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+    "media": "c.media({ nom: 'real-sejour', alt: \"Séjour rénové, îlot clair et suspension\", cadrage: '49% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
   },
   "real-valet": {
     "nom": "real-valet",
@@ -476,40 +476,40 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "2d99724a94c50057",
+    "empreinte": "8163ac71b14220e6",
     "ratio": "3:4",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "46% 35%",
+    "cadrage": "47% 37%",
     "sujet": {
-      "x": 20.5,
-      "y": 8.6,
-      "l": 55.4,
-      "h": 72.1
+      "x": 12.5,
+      "y": 0,
+      "l": 62.5,
+      "h": 93.8
     },
     "zones_calmes": [
       {
         "cote": "droite",
-        "score": 0.65,
+        "score": 0.63,
         "ton": "clair"
       },
       {
         "cote": "bas",
-        "score": 0.6,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.35,
+        "score": 0.51,
         "ton": "moyen"
       },
       {
         "cote": "haut",
-        "score": 0.33,
+        "score": 0.26,
         "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
       }
     ],
     "zone_texte": null,
@@ -534,7 +534,7 @@
       "real-valet-480.webp": 15598,
       "real-valet-800.webp": 32904
     },
-    "media": "c.media({ nom: 'real-valet', alt: \"Valet de chambre en bois restauré\", cadrage: '46% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+    "media": "c.media({ nom: 'real-valet', alt: \"Valet de chambre en bois restauré\", cadrage: '47% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
   },
   "real-lampe": {
     "nom": "real-lampe",
@@ -544,39 +544,39 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "ea50f107719505fb",
+    "empreinte": "d151d53d5b98bd81",
     "ratio": "3:4",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "36% 43%",
+    "cadrage": "52% 61%",
     "sujet": {
-      "x": 8.8,
-      "y": 22.3,
-      "l": 54.2,
-      "h": 36.3
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.63,
-        "ton": "moyen"
-      },
-      {
-        "cote": "droite",
-        "score": 0.6,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
         "score": 0.35,
         "ton": "moyen"
       },
       {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
         "cote": "bas",
-        "score": 0.33,
+        "score": 0,
         "ton": "moyen"
       }
     ],
@@ -602,7 +602,7 @@
       "real-lampe-480.webp": 34516,
       "real-lampe-800.webp": 90586
     },
-    "media": "c.media({ nom: 'real-lampe', alt: \"Suspension réalisée au crochet au-dessus d'un lit\", cadrage: '36% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+    "media": "c.media({ nom: 'real-lampe', alt: \"Suspension réalisée au crochet au-dessus d'un lit\", cadrage: '52% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
   },
   "buffet-avant": {
     "nom": "buffet-avant",
@@ -612,46 +612,46 @@
     "grok": false,
     "mention": null,
     "beaute": 2,
-    "empreinte": "fd93da678cec9637",
+    "empreinte": "050501fb79eab1cf",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "50% 41%",
+    "cadrage": "41% 42%",
     "sujet": {
-      "x": 6.4,
-      "y": 0.8,
-      "l": 89.4,
-      "h": 99.2
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
         "cote": "droite",
-        "score": 0.26,
-        "ton": "moyen"
-      },
-      {
-        "cote": "haut",
-        "score": 0.26,
+        "score": 0.16,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.25,
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.1,
         "ton": "moyen"
       },
       {
         "cote": "gauche",
-        "score": 0.21,
+        "score": 0.09,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
       "left": 0,
-      "top": 175,
+      "top": 0,
       "width": 1123,
       "height": 1123,
       "source": [
@@ -670,10 +670,10 @@
       "buffet-avant-800.webp"
     ],
     "poids": {
-      "buffet-avant-480.webp": 21192,
-      "buffet-avant-800.webp": 37930
+      "buffet-avant-480.webp": 20592,
+      "buffet-avant-800.webp": 36826
     },
-    "media": "c.media({ nom: 'buffet-avant', alt: \"Le buffet avant : bois verni orangé\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'buffet-avant', alt: \"Le buffet avant : bois verni orangé\", cadrage: '41% 42%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "buffet-apres": {
     "nom": "buffet-apres",
@@ -683,39 +683,39 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "672e1288986e16a7",
+    "empreinte": "d92cc3a7144a6b3f",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "49% 50%",
+    "cadrage": "55% 50%",
     "sujet": {
-      "x": 8.7,
-      "y": 2.1,
-      "l": 76,
-      "h": 97.9
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
         "cote": "gauche",
-        "score": 0.18,
+        "score": 0.07,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.18,
-        "ton": "moyen"
-      },
-      {
-        "cote": "haut",
-        "score": 0.13,
+        "score": 0.07,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.11,
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
         "ton": "moyen"
       }
     ],
@@ -741,7 +741,7 @@
       "buffet-apres-480.webp": 22270,
       "buffet-apres-800.webp": 49166
     },
-    "media": "c.media({ nom: 'buffet-apres', alt: \"Le buffet après : repeint en bleu nuit, plateau bois naturel\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'buffet-apres', alt: \"Le buffet après : repeint en bleu nuit, plateau bois naturel\", cadrage: '55% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "bahut-avant": {
     "nom": "bahut-avant",
@@ -751,45 +751,45 @@
     "grok": false,
     "mention": null,
     "beaute": 2,
-    "empreinte": "e990de93d3a4f726",
+    "empreinte": "2f8fd9514db7c6c9",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "50% 48%",
+    "cadrage": "50% 52%",
     "sujet": {
-      "x": 32.1,
-      "y": 32.4,
-      "l": 35.3,
-      "h": 29.4
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.2
     },
     "zones_calmes": [
       {
         "cote": "haut",
-        "score": 0.37,
+        "score": 0.03,
         "ton": "clair"
       },
       {
         "cote": "gauche",
-        "score": 0.32,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.23,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.23,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 129,
+      "left": 152,
       "top": 0,
       "width": 889,
       "height": 889,
@@ -808,10 +808,10 @@
       "bahut-avant-800.webp"
     ],
     "poids": {
-      "bahut-avant-480.webp": 22480,
-      "bahut-avant-800.webp": 39640
+      "bahut-avant-480.webp": 22702,
+      "bahut-avant-800.webp": 40916
     },
-    "media": "c.media({ nom: 'bahut-avant', alt: \"Le bahut avant : bois sombre, vitrines chargées\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'bahut-avant', alt: \"Le bahut avant : bois sombre, vitrines chargées\", cadrage: '50% 52%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "bahut-apres": {
     "nom": "bahut-apres",
@@ -821,46 +821,46 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "6e87f7598b586140",
+    "empreinte": "c88a49a414d1ca6b",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "50% 50%",
+    "cadrage": "46% 50%",
     "sujet": {
-      "x": 8.5,
-      "y": 22,
-      "l": 82.7,
-      "h": 68.8
+      "x": 12.5,
+      "y": 9.5,
+      "l": 75,
+      "h": 66.7
     },
     "zones_calmes": [
       {
-        "cote": "haut",
-        "score": 0.63,
+        "cote": "bas",
+        "score": 0.7,
         "ton": "clair"
       },
       {
-        "cote": "bas",
-        "score": 0.58,
+        "cote": "haut",
+        "score": 0.54,
         "ton": "clair"
       },
       {
         "cote": "gauche",
-        "score": 0.43,
+        "score": 0.45,
         "ton": "clair"
       },
       {
         "cote": "droite",
-        "score": 0.42,
+        "score": 0.44,
         "ton": "clair"
       }
     ],
     "zone_texte": null,
     "recadrage": {
       "left": 0,
-      "top": 230,
+      "top": 170,
       "width": 1500,
       "height": 1500,
       "source": [
@@ -876,10 +876,10 @@
       "bahut-apres-800.webp"
     ],
     "poids": {
-      "bahut-apres-480.webp": 16710,
-      "bahut-apres-800.webp": 42168
+      "bahut-apres-480.webp": 16592,
+      "bahut-apres-800.webp": 41422
     },
-    "media": "c.media({ nom: 'bahut-apres', alt: \"Le bahut après : blanc, cannage et tissu à motifs\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'bahut-apres', alt: \"Le bahut après : blanc, cannage et tissu à motifs\", cadrage: '46% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "dressing-avant": {
     "nom": "dressing-avant",
@@ -889,45 +889,45 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "2b6142f5987dc7d3",
+    "empreinte": "9240846668cabfe5",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "50% 49%",
+    "cadrage": "50% 53%",
     "sujet": {
-      "x": 22.3,
-      "y": 25,
-      "l": 54.9,
-      "h": 44.1
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
         "cote": "droite",
-        "score": 0.2,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "haut",
-        "score": 0.19,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "bas",
-        "score": 0.19,
-        "ton": "moyen"
-      },
-      {
-        "cote": "gauche",
-        "score": 0.16,
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 282,
+      "left": 416,
       "top": 0,
       "width": 941,
       "height": 941,
@@ -944,10 +944,10 @@
       "dressing-avant-800.webp"
     ],
     "poids": {
-      "dressing-avant-480.webp": 44178,
-      "dressing-avant-800.webp": 99226
+      "dressing-avant-480.webp": 45376,
+      "dressing-avant-800.webp": 101848
     },
-    "media": "c.media({ nom: 'dressing-avant', alt: \"Le dressing avant : vêtements entassés au sol\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'dressing-avant', alt: \"Le dressing avant : vêtements entassés au sol\", cadrage: '50% 53%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "dressing-apres": {
     "nom": "dressing-apres",
@@ -957,45 +957,45 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "0ed7006008419366",
+    "empreinte": "3e3be47734e0e66b",
     "ratio": "1:1",
     "largeurs": [
       480,
       800
     ],
     "mobile": null,
-    "cadrage": "50% 41%",
+    "cadrage": "50% 57%",
     "sujet": {
-      "x": 14,
-      "y": 20.6,
-      "l": 75.7,
-      "h": 44.1
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
     },
     "zones_calmes": [
       {
-        "cote": "haut",
-        "score": 0.23,
-        "ton": "moyen"
-      },
-      {
-        "cote": "bas",
-        "score": 0.2,
-        "ton": "moyen"
-      },
-      {
         "cote": "gauche",
-        "score": 0.18,
+        "score": 0,
         "ton": "moyen"
       },
       {
         "cote": "droite",
-        "score": 0.14,
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
         "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 518,
+      "left": 578,
       "top": 0,
       "width": 1125,
       "height": 1125,
@@ -1012,10 +1012,10 @@
       "dressing-apres-800.webp"
     ],
     "poids": {
-      "dressing-apres-480.webp": 38572,
-      "dressing-apres-800.webp": 85458
+      "dressing-apres-480.webp": 39642,
+      "dressing-apres-800.webp": 87042
     },
-    "media": "c.media({ nom: 'dressing-apres', alt: \"Le dressing après : vêtements rangés sur portants\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+    "media": "c.media({ nom: 'dressing-apres', alt: \"Le dressing après : vêtements rangés sur portants\", cadrage: '50% 57%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
   },
   "grok/accueil-porte": {
     "nom": "grok/accueil-porte",
@@ -1025,7 +1025,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 5,
-    "empreinte": "72dd352f35ef036f",
+    "empreinte": "6b67d1bead2cd0b4",
     "ratio": "4:5",
     "largeurs": [
       480,
@@ -1109,7 +1109,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "ba9d8448e099b0d2",
+    "empreinte": "23d9e5f198e59bea",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -1193,7 +1193,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "b6833a11386548c7",
+    "empreinte": "4a8fc890025ced96",
     "ratio": "2:3",
     "largeurs": [
       480,
@@ -1267,7 +1267,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "31f6e8ebb1d88bf0",
+    "empreinte": "46259da1db7331b0",
     "ratio": "2:3",
     "largeurs": [
       480,
@@ -1341,7 +1341,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "fda9a271bfa057d5",
+    "empreinte": "6b029a34d14ae802",
     "ratio": "2:3",
     "largeurs": [
       480,
@@ -1414,7 +1414,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "d1211cf5b93e14d1",
+    "empreinte": "be972041dce41b4a",
     "ratio": "2:3",
     "largeurs": [
       480,
@@ -1487,7 +1487,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "435759bae6fd8209",
+    "empreinte": "7007448021645913",
     "ratio": "2:3",
     "largeurs": [
       480,
@@ -1561,7 +1561,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "6de8f179b35800ed",
+    "empreinte": "2ec3e27aa484325a",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -1645,7 +1645,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "e8459d3716fbb627",
+    "empreinte": "84e9133d3c50fc01",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -1731,7 +1731,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "540512b05ec37682",
+    "empreinte": "e482379d3c4521d1",
     "ratio": "3:2",
     "largeurs": [
       640,
@@ -1804,7 +1804,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "3a6f67eb9b729541",
+    "empreinte": "0eec41cd20c0e741",
     "ratio": "3:2",
     "largeurs": [
       640,
@@ -1890,7 +1890,7 @@
     "grok": true,
     "mention": "Illustration générée",
     "beaute": 4,
-    "empreinte": "c09f104a815744bc",
+    "empreinte": "19f38900f133f3ad",
     "ratio": "16:9",
     "largeurs": [
       800,
@@ -1949,5 +1949,345 @@
       "grok/page-404-1600.webp": 102034
     },
     "media": "c.media({ nom: 'grok/page-404', alt: \"Une vieille porte bleue entrouverte dans un mur de pierre\", cadrage: '53% 45%', sizes: '100vw', ratio: '16 / 9' })"
+  },
+  "real-cuisine-plein": {
+    "nom": "real-cuisine-plein",
+    "source": "recu/apresleseuil-recu/renovation-cuisine.jpg",
+    "role": "galerie",
+    "alt": "Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "7f901b19f8288500",
+    "ratio": "original",
+    "largeurs": [
+      800,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "61% 50%",
+    "sujet": {
+      "x": 25,
+      "y": 4.5,
+      "l": 75,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.46,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-cuisine-plein-800.webp",
+      "real-cuisine-plein-1400.webp"
+    ],
+    "poids": {
+      "real-cuisine-plein-800.webp": 32232,
+      "real-cuisine-plein-1400.webp": 71478
+    },
+    "media": "c.media({ nom: 'real-cuisine-plein', alt: \"Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir\", cadrage: '61% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: 'original' })"
+  },
+  "real-entree-plein": {
+    "nom": "real-entree-plein",
+    "source": "recu/apresleseuil-recu/entree-maison-amelioree.jpg",
+    "role": "galerie",
+    "alt": "Entrée réaménagée avec un grand meuble bois et noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "b721daf1ba728790",
+    "ratio": "original",
+    "largeurs": [
+      800,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "53% 53%",
+    "sujet": {
+      "x": 8.3,
+      "y": 3.1,
+      "l": 91.7,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-entree-plein-800.webp",
+      "real-entree-plein-1400.webp"
+    ],
+    "poids": {
+      "real-entree-plein-800.webp": 31308,
+      "real-entree-plein-1400.webp": 62442
+    },
+    "media": "c.media({ nom: 'real-entree-plein', alt: \"Entrée réaménagée avec un grand meuble bois et noir\", cadrage: '53% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: 'original' })"
+  },
+  "real-sejour-plein": {
+    "nom": "real-sejour-plein",
+    "source": "recu/apresleseuil-recu/sejour-renove.jpg",
+    "role": "galerie",
+    "alt": "Séjour rénové, îlot clair et suspension",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "028698c5cd9ce77d",
+    "ratio": "original",
+    "largeurs": [
+      800,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "49% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 18.8,
+      "l": 100,
+      "h": 81.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.61,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-sejour-plein-800.webp",
+      "real-sejour-plein-1400.webp"
+    ],
+    "poids": {
+      "real-sejour-plein-800.webp": 44104,
+      "real-sejour-plein-1400.webp": 88282
+    },
+    "media": "c.media({ nom: 'real-sejour-plein', alt: \"Séjour rénové, îlot clair et suspension\", cadrage: '49% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: 'original' })"
+  },
+  "real-valet-plein": {
+    "nom": "real-valet-plein",
+    "source": "recu/apresleseuil-recu/valet-chambre.jpg",
+    "role": "galerie",
+    "alt": "Valet de chambre en bois restauré",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "d649699e57444669",
+    "ratio": "original",
+    "largeurs": [
+      800,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "47% 37%",
+    "sujet": {
+      "x": 12.5,
+      "y": 0,
+      "l": 62.5,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.51,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.25,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-valet-plein-800.webp",
+      "real-valet-plein-1400.webp"
+    ],
+    "poids": {
+      "real-valet-plein-800.webp": 32904,
+      "real-valet-plein-1400.webp": 75840
+    },
+    "media": "c.media({ nom: 'real-valet-plein', alt: \"Valet de chambre en bois restauré\", cadrage: '47% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: 'original' })"
+  },
+  "real-lampe-plein": {
+    "nom": "real-lampe-plein",
+    "source": "recu/apresleseuil-recu/lampe-crochet.jpg",
+    "role": "galerie",
+    "alt": "Suspension réalisée au crochet au-dessus d'un lit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0aaadda5b04df80d",
+    "ratio": "original",
+    "largeurs": [
+      800,
+      1400
+    ],
+    "mobile": null,
+    "cadrage": "52% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-lampe-plein-800.webp",
+      "real-lampe-plein-1400.webp"
+    ],
+    "poids": {
+      "real-lampe-plein-800.webp": 90586,
+      "real-lampe-plein-1400.webp": 235988
+    },
+    "media": "c.media({ nom: 'real-lampe-plein', alt: \"Suspension réalisée au crochet au-dessus d'un lit\", cadrage: '52% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: 'original' })"
   }
 }

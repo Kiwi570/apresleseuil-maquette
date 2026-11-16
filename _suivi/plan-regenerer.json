@@ -1,0 +1,107 @@
+[
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-porte",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "page": "Accueil",
+  "emplacement": "ouverture, photo dans l'arche",
+  "priorite": "Conseillée",
+  "gabarit": "ouverture",
+  "consigne_scene": "Tall old wooden double door painted deep teal blue, both leaves half open, seen from inside a cool shaded room with limewashed walls and terracotta floor tiles; through the doorway a sunlit stone terrace, a potted olive tree and soft rounded blue hills in the distance, warm golden morning light pouring across the floor, the doorway centered in the frame. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Une porte bleue grande ouverte sur une terrasse ensoleillée et les collines",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/carte-depart.jpg",
+  "nom": "grok/carte-depart",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Préparer un nouveau départ",
+  "priorite": "Conseillée",
+  "consigne_scene": "A few cardboard moving boxes neatly stacked and tied with twine near an open door in a bright, almost empty room with old terracotta tiles and limewashed walls, a folded linen sheet on top, a potted olive tree by the door, morning light. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Une carte dépliée et une boussole sur une table en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-chezsoi.jpg",
+  "nom": "grok/carte-chezsoi",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Se sentir mieux chez soi",
+  "priorite": "Conseillée",
+  "consigne_scene": "A calm living room corner: an old oak armchair with washed linen cushions, a low wooden table, an olive branch in a handmade ceramic vase, a limewashed wall in warm sand tones, a window with soft afternoon light. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Un coin salon baigné de lumière : lin, coussins et branche d’olivier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-place.jpg",
+  "nom": "grok/carte-place",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Faire de la place",
+  "priorite": "Conseillée",
+  "consigne_scene": "Tidy open oak shelves with a few neatly folded linens, woven baskets and glass jars, one shelf left almost empty, sunlight from a side window on a limewashed wall, serene and airy. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Des paniers en osier rangés au pied d’une échelle en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-cap.jpg",
+  "nom": "grok/carte-cap",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Retrouver un cap",
+  "priorite": "Conseillée",
+  "consigne_scene": "A simple wooden bench on a stone terrace facing a wide valley at dawn, an open notebook and a ceramic cup of tea on the bench, olive branches in the foreground, mist lying in the valley, nobody in the scene. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Une boussole posée sur un rocher, face aux collines",
+  "beaute": 4,
+  "cadrage": [
+   45,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/carte-atelier.jpg",
+  "nom": "grok/carte-atelier",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Créer et partager (ateliers)",
+  "priorite": "Conseillée",
+  "consigne_scene": "A large wooden workshop table in a bright stone room: an old chair being repainted in sage green, paint brushes in a jar, small pots of chalk paint, fabric scraps and balls of natural yarn, natural daylight, nobody in the scene. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Pinceaux, bol en céramique et carnet sur une table d’atelier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/pros-ouverture.jpg",
+  "source_mobile": "recu/grok/pros-ouverture-mobile.jpg",
+  "nom": "grok/pros-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "Professionnels",
+  "emplacement": "ouverture (bandeau sous le grand titre)",
+  "priorite": "Conseillée",
+  "gabarit": "ouverture",
+  "consigne_scene": "Bright meeting room in a renovated stone farmhouse, large windows open onto olive trees and low hills, a long oak table with notebooks, carafes of water and a paper flipchart left blank, chairs pushed back, nobody in the room, calm upper area. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Une salle de réunion lumineuse dans une maison de pierre",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "Contact",
+  "emplacement": "ouverture",
+  "priorite": "Conseillée",
+  "consigne_scene": "A small round wooden table by an open window with two ceramic cups of tea, a notebook and a pen, an olive branch in a glass, linen curtain moving in the breeze, soft morning light, an invitation to talk, nobody in the scene. Generate this image on its own (not in a grid or collage), at the highest resolution available.",
+  "alt": "Une tasse, un carnet ouvert et une branche d’olivier au soleil",
+  "beaute": 4
+ }
+]

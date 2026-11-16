@@ -2,14 +2,40 @@
   "nom": "Après le Seuil",
   "adresse": "https://apresleseuil-maquette.vercel.app",
   "siteActuel": "apresleseuil.fr",
-  "version": 1,
-  "langues": ["fr"],
-  "navigation": ["accueil", "particuliers", "professionnels", "a-propos", "contact"],
-  "actionEntete": { "page": "contact", "ancre": "rendez-vous" },
-  "couleurs": { "fond": "#F5EFE4", "texte": "#2A2622", "voile": "#163A44", "ouverture": "#163A44", "menu": "#F5EFE4", "theme": "#F5EFE4" },
+  "version": 2,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "particuliers",
+    "professionnels",
+    "a-propos",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "rendez-vous"
+  },
+  "couleurs": {
+    "fond": "#F5EFE4",
+    "texte": "#2A2622",
+    "voile": "#163A44",
+    "ouverture": "#163A44",
+    "menu": "#F5EFE4",
+    "theme": "#F5EFE4"
+  },
   "formeVoile": "rideau",
-  "contact": { "telephone": "06 43 30 03 96", "telephoneLien": "+33643300396", "email": "apresleseuil@gmail.com", "adresse": "Largentière, Ardèche" },
-  "polices": ["/assets/fonts/fraunces-latin-400-normal.woff2", "/assets/fonts/jost-latin-400-normal.woff2"],
+  "contact": {
+    "telephone": "06 43 30 03 96",
+    "telephoneLien": "+33643300396",
+    "email": "apresleseuil@gmail.com",
+    "adresse": "Largentière, Ardèche"
+  },
+  "polices": [
+    "/assets/fonts/fraunces-latin-400-normal.woff2",
+    "/assets/fonts/jost-latin-400-normal.woff2"
+  ],
   "imagePartage": "accueil-porte-800.webp",
-  "curseur": false
+  "curseur": true
 }

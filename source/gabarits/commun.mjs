@@ -99,6 +99,7 @@ function pied(c) {
       ${arche('pied-arche')}
       <p class="pied-nom">${c.site.nom}</p>
       <p class="pied-signature">${c.t('commun.signature')}</p>
+      <p class="pied-action"><a class="lien-fleche" href="${c.url('contact', 'rendez-vous')}" data-libelle="${c.libelle('contact')}">${c.t('commun.piedAction')}</a></p>
     </div>
     <div>
       <p class="pied-titre">${c.t('commun.contact')}</p>
@@ -153,17 +154,24 @@ ${barre(c)}
 </html>`;
 }
 
-/* Appel final commun à toutes les pages (même composant partout). */
+/* Appel final commun à toutes les pages : bleu de porte, petite arche du logo qui se trace, soleil levant
+   qui monte depuis la limite du pied de page (rayons en éventail qui tournent lentement). */
+const RAYONS = Array.from({ length: 17 }, (_, i) => {
+  const a = Math.PI + (i / 16) * Math.PI, r1 = 150, r2 = i % 2 ? 230 : 280;
+  return `<line x1="${(Math.cos(a) * r1).toFixed(1)}" y1="${(Math.sin(a) * r1).toFixed(1)}" x2="${(Math.cos(a) * r2).toFixed(1)}" y2="${(Math.sin(a) * r2).toFixed(1)}"/>`;
+}).join('');
 export function appelFinal(c, { id = 'fin' } = {}) {
   return html`<section class="fin" id="${id}">
   <div class="fin-soleil" data-effet="soleil" aria-hidden="true">
-    <svg viewBox="-200 -200 400 400" class="soleil-rayons" data-visuel>
-      ${Array.from({ length: 24 }, (_, i) => { const a = (i / 24) * Math.PI * 2, r1 = i % 2 ? 120 : 110, r2 = i % 2 ? 160 : 190; return html`<line x1="${(Math.cos(a) * r1).toFixed(1)}" y1="${(Math.sin(a) * r1).toFixed(1)}" x2="${(Math.cos(a) * r2).toFixed(1)}" y2="${(Math.sin(a) * r2).toFixed(1)}"/>`; })}
+    <svg viewBox="-300 -300 600 300" class="soleil" data-visuel>
+      <defs><radialGradient id="soleil-halo" cx="0" cy="0" r="140" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E9C88C" stop-opacity=".95"/><stop offset=".72" stop-color="#D7B072" stop-opacity=".55"/><stop offset="1" stop-color="#D7B072" stop-opacity="0"/></radialGradient></defs>
+      <g class="soleil-rayons">${brut(RAYONS)}</g>
+      <circle class="soleil-disque" cx="0" cy="0" r="120" fill="url(#soleil-halo)"/>
+      <path class="soleil-bord" d="M-120 0a120 120 0 0 1 240 0"/>
     </svg>
-    <span class="soleil-disque"></span>
   </div>
   <div class="fin-texte conteneur">
-    ${arche('fin-arche', 'data-fx="trace"')}
+    ${arche('fin-arche', '', true)}
     <h2 data-anime="lignes">${c.t('commun.fin.titre')}</h2>
     <p data-anime>${c.t('commun.fin.texte')}</p>
     <p class="fin-actions" data-anime>

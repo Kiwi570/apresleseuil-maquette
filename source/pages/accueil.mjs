@@ -104,7 +104,7 @@ export default (c) => html`
       <p class="ava-consigne" data-anime><span class="consigne-souris">${c.t('accueil.avantApres.consigne')}</span><span class="consigne-doigt">${c.t('accueil.avantApres.consigneTactile')}</span></p>
       <p data-anime>${c.lien('a-propos', { ancre: 'realisations', texte: c.t('accueil.avantApres.lien'), classe: 'lien-fleche' })}</p>
     </div>
-    <div class="ava" data-module="avant-apres" data-mode="reglet" data-onglets data-onglets-libelle="${c.s('accueil.avantApres.onglets')}">
+    <div class="ava" data-grille="manipuler" data-module="avant-apres" data-mode="reglet" data-onglets data-onglets-libelle="${c.s('accueil.avantApres.onglets')}">
       <div class="ava__onglets" data-ava-onglets></div>
       <div class="ava__paires">
         ${paires.map((p) => html`<figure class="ava__paire" data-titre="${c.s('accueil.avantApres.' + p.cle)}">
@@ -157,16 +157,18 @@ export default (c) => html`
 </section>
 
 <section class="pros-bande fond-sable" id="professionnels">
-  <div class="conteneur pros-grille">
-    ${c.media({ nom: 'grok/pros-table', alt: c.donnees.images['grok/pros-table']?.alt || '', cadrage: '50% 55%', classe: 'pros-media', sizes: '(max-width: 760px) 100vw, 50vw', attrs: 'data-fx="parallaxe"' })}
-    <div class="pros-texte">
+  <div class="pros-photo">
+    ${c.media({ nom: 'grok/pros-table', alt: c.donnees.images['grok/pros-table']?.alt || '', cadrage: '50% 60%', classe: 'pros-media', sizes: '100vw', attrs: 'data-fx="parallaxe"' })}
+  </div>
+  <div class="conteneur">
+    <div class="pros-carte">
       <p class="surtitre" data-anime>${c.t('accueil.pros.surtitre')}</p>
       <h2 data-anime="lignes">${c.t('accueil.pros.titre')}</h2>
       <p data-anime>${c.t('accueil.pros.texte')}</p>
       <ul class="pastilles" data-anime="cascade">
         ${['a1', 'a2', 'a3', 'a4'].map((k) => html`<li>${c.t('professionnels.axes.' + k)}</li>`)}
       </ul>
-      <p data-anime>${c.lien('professionnels', { texte: c.t('accueil.pros.action'), classe: 'bouton' })}</p>
+      <p data-anime>${c.lien('professionnels', { texte: c.t('accueil.pros.action'), classe: 'bouton', attrs: 'data-survol="magnetique"' })}</p>
     </div>
   </div>
 </section>

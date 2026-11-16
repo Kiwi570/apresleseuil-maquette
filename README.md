@@ -1,4 +1,4 @@
-# Après le Seuil · maquette v1
+# Après le Seuil · maquette v2
 
 Maquette du site d'Après le Seuil (Christel Ketterlin, Largentière, Ardèche) : accompagnement dans les transitions de vie et de lieux.
 Adresse prévue : https://apresleseuil-maquette.vercel.app
@@ -9,11 +9,11 @@ Direction « Le seuil doré » : ivoire et sable, bleu de porte, or ; Fraunces (
 ## Fiche : ce que le client doit fournir (à compléter)
 
 - **Mentions légales** : à compléter (éditeur 45NordEst SASU, capital 1 000 €, RCS Aubenas 983 111 378, TVA FR64 983 111 378, siège 1794 route de Vente Cual, 07110 Largentière ; responsable de la publication Christel Ketterlin ; médiateur CM2C). **Hébergeur du site définitif** : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (adresse des conditions d'utilisation de Vercel, vérifiée le 16 novembre 2026).
-- **Politique de confidentialité** : à compléter (le formulaire de rendez-vous y renvoie).
+- **Politique de confidentialité** : à compléter (pied de page ; ajouter aussi un lien sous le formulaire de rendez-vous quand elle existera).
 - **Conditions générales de vente** et **code de déontologie** (PDF) : à fournir, ils étaient liés dans le pied du site actuel.
 - **SIRET** : absent du site actuel, à compléter.
 - **Réseaux sociaux** : adresses exactes des comptes Facebook, Instagram et TikTok (retirés du pied de page faute de liens).
-- **Crédits des illustrations générées** : 12 images créées avec Grok (marquées « Illustration générée » sur le site, mention à garder sur le site définitif).
+- **Crédits des illustrations générées** : 12 images créées avec Grok (8 d'entre elles, floues car agrandies depuis des planches, peuvent être régénérées en pleine définition avec `_suivi/apresleseuil-images-grok-hd.docx`) (marquées « Illustration générée » sur le site, mention à garder sur le site définitif).
 
 ### Retiré ou remplacé faute d'information
 

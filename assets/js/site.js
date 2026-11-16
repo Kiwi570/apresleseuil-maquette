@@ -2,8 +2,8 @@
    les mesures et la bibliothèque d'effets (lignes, cascade, rideau, parallaxe, zoom, trace, vitesse…).
    Effets du plan (data-effet) : porte, eclaire, seuil, arche, avant-apres, soleil, enfilade, bandeau, boussole,
    portrait, fenetre. */
-import { demarrer, quand, etat, boucle } from './socle/index.js?v=1';
-import { versObjet } from './socle/index.js?v=1';
+import { demarrer, quand, etat, boucle, bloquerDefilement, debloquerDefilement, suivre, lacher } from './socle/index.js?v=2';
+import { versObjet } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -54,7 +54,7 @@ function seuil() {
   const etatS = { p: 0 };
   const dessiner = () => {
     const p = etatS.p, e = p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
-    const tel = W < 761, l = (tel ? 20 : 34) * (1 - e), t = (tel ? 22 : 18) * (1 - e);
+    const tel = W < 761, l = (tel ? 18 : 30) * (1 - e), t = (tel ? 22 : 17) * (1 - e);
     const largeur = W * (1 - 2 * l / 100);
     const r = Math.max(0, (largeur / 2) * (1 - Math.max(0, (e - 0.55) / 0.45)));
     media.style.clipPath = `inset(${t.toFixed(2)}% ${l.toFixed(2)}% 0% ${l.toFixed(2)}% round ${r.toFixed(1)}px ${r.toFixed(1)}px 0px 0px)`;
@@ -84,11 +84,91 @@ function arches() {
   });
 }
 
-/* ---------- Soleil qui se lève derrière l'appel final (effet « soleil »). ---------- */
+/* ---------- Appel final : le soleil monte depuis le pied de page, ses rayons tournent lentement (s'arrêtent hors écran),
+   et l'arche du logo se trace une fois à l'entrée (effet « soleil »). ---------- */
 function soleil() {
-  $$('.fin-soleil[data-effet="soleil"]').forEach((s) => {
-    gsap.timeline({ scrollTrigger: { trigger: s.closest('.fin'), start: 'top bottom', end: 'bottom bottom', scrub: 0.8, invalidateOnRefresh: true } })
-      .fromTo(s, { yPercent: 18, rotation: -12 }, { yPercent: 0, rotation: 0, ease: 'none' }, 0);
+  $$('.fin').forEach((fin) => {
+    const s = fin.querySelector('.fin-soleil[data-effet="soleil"]');
+    if (s) gsap.fromTo(s, { yPercent: 38 }, { yPercent: 0, ease: 'none', scrollTrigger: { trigger: fin, start: 'top bottom', end: 'bottom bottom', scrub: 0.8, invalidateOnRefresh: true } });
+    const rayons = fin.querySelector('.soleil-rayons');
+    if (rayons) boucle(rayons, (dt, t) => { rayons.style.transform = `rotate(${(Math.sin(t * 0.25) * 6).toFixed(2)}deg)`; });
+    const traits = $$('.fin-arche path', fin);
+    if (traits.length) window.ScrollTrigger.create({ trigger: fin, start: 'top 70%', once: true,
+      onEnter: () => gsap.to(traits, { strokeDashoffset: 0, duration: 1.4, stagger: 0.12, ease: 'power2.inOut' }) });
+  });
+}
+
+/* ---------- À propos : visionneuse des réalisations (clavier, glissement, Échap, focus gardé). ---------- */
+function visionneuse() {
+  const v = $('.visionneuse');
+  const boutons = $$('[data-visionneuse-index]');
+  if (!v || !boutons.length) return;
+  const cadre = v.querySelector('.visionneuse-cadre'), leg = v.querySelector('figcaption');
+  let img = null;
+  const prec = v.querySelector('.visionneuse-precedente'), suiv = v.querySelector('.visionneuse-suivante'), fermer = v.querySelector('.visionneuse-fermer');
+  let i = 0, retour = null;
+  const montrer = (n) => {
+    i = (n + boutons.length) % boutons.length;
+    const b = boutons[i];
+    if (!img) { img = document.createElement('img'); img.decoding = 'async'; cadre.prepend(img); }
+    img.src = b.dataset.plein;
+    img.alt = b.querySelector('img')?.alt || '';
+    leg.textContent = `${b.dataset.legende} · ${i + 1} / ${boutons.length}`;
+  };
+  const ouvrir = (n, b) => {
+    retour = b; montrer(n); v.hidden = false;
+    bloquerDefilement('visionneuse'); suivre(v);
+    gsap.fromTo(v, { opacity: 0 }, { opacity: 1, duration: 0.35 });
+    gsap.fromTo(img, { scale: 0.94 }, { scale: 1, duration: 0.5, ease: 'power3.out' });
+    fermer.focus();
+  };
+  const clore = () => {
+    v.hidden = true; debloquerDefilement('visionneuse'); lacher(v);
+    if (retour) retour.focus();
+  };
+  boutons.forEach((b, n) => b.addEventListener('click', () => ouvrir(n, b)));
+  prec.addEventListener('click', () => montrer(i - 1));
+  suiv.addEventListener('click', () => montrer(i + 1));
+  fermer.addEventListener('click', clore);
+  v.addEventListener('click', (e) => { if (e.target === v) clore(); });
+  v.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.preventDefault(); clore(); }
+    else if (e.key === 'ArrowLeft') montrer(i - 1);
+    else if (e.key === 'ArrowRight') montrer(i + 1);
+    else if (e.key === 'Tab') {
+      const f = [prec, suiv, fermer]; const k = f.indexOf(document.activeElement);
+      e.preventDefault(); f[(k + (e.shiftKey ? f.length - 1 : 1)) % f.length].focus();
+    }
+  });
+  let x0 = null;
+  v.addEventListener('pointerdown', (e) => { x0 = e.clientX; });
+  v.addEventListener('pointerup', (e) => { if (x0 === null) return; const d = e.clientX - x0; x0 = null; if (Math.abs(d) > 50) montrer(i + (d < 0 ? 1 : -1)); });
+}
+
+/* ---------- Particuliers : le sommaire de la marge apparaît une fois l'ouverture passée. ---------- */
+function suivi() {
+  const nav = $('.suivi');
+  if (!nav) return;
+  window.ScrollTrigger.create({ trigger: '#depart', start: 'top 60%', endTrigger: '#villa', end: 'bottom 40%',
+    onToggle: (st) => document.documentElement.classList.toggle('suivi-visible', st.isActive) });
+}
+
+/* ---------- Particuliers : « Faire de la place ». Les lettres, entassées et de travers, s'écartent et se rangent
+   à leur place au défilement ; positions de départ calculées depuis la mise en page (offsetLeft ignore les transformations). ---------- */
+function titreRange() {
+  $$('.titre-range').forEach((h) => {
+    const lettres = $$('.tr-l', h);
+    if (!lettres.length) return;
+    const hasard = (i) => { const x = Math.sin(i * 91.7 + 3.1) * 43758.5453; return x - Math.floor(x); };
+    /* Centre du texte lui-même (le titre occupe toute la colonne, le texte seulement sa gauche). */
+    const centre = () => { const g = Math.min(...lettres.map((l) => l.offsetLeft)); const d = Math.max(...lettres.map((l) => l.offsetLeft + l.offsetWidth)); return (g + d) / 2; };
+    let c = 0;
+    const ecart = (i, l) => { if (!i) c = centre(); return (c - (l.offsetLeft + l.offsetWidth / 2)) * 0.2; };
+    const em = () => parseFloat(getComputedStyle(h).fontSize) || 40;
+    /* Lettres posées en vrac, puis rangées une à une, de gauche à droite, au fil du défilement. */
+    gsap.set(lettres, { x: ecart, y: (i) => (hasard(i) - 0.5) * em() * 0.5, rotation: (i) => (hasard(i + 7) - 0.5) * 44 });
+    gsap.to(lettres, { x: 0, y: 0, rotation: 0, ease: 'power2.out', duration: 0.6, stagger: 0.05,
+      scrollTrigger: { trigger: h, start: 'top 92%', end: 'top 45%', scrub: 0.8 } });
   });
 }
 
@@ -133,7 +213,7 @@ function porte404() {
 async function modules() {
   const ava = $('[data-module="avant-apres"]');
   if (ava) {
-    const { init } = await import('./modules/avant-apres.js?v=1');
+    const { init } = await import('./modules/avant-apres.js?v=2');
     init(ava, { mode: 'reglet', depart: 50 });
   }
   const fpe = $('[data-module="formulaire-par-etapes"]');
@@ -146,7 +226,7 @@ async function modules() {
       const profil = fpe.querySelector(`input[name="profil"][value="${sujet === 'entreprise' ? 'entreprise' : 'particulier'}"]`);
       if (profil) profil.checked = true;
     }
-    const { init } = await import('./modules/formulaire-par-etapes.js?v=1');
+    const { init } = await import('./modules/formulaire-par-etapes.js?v=2');
     init(fpe, { animation: true });
   }
 }
@@ -179,7 +259,7 @@ function entreePremierEcran(tl, a) {
 demarrer({
   preparer() {
     if (!gsap || !window.ScrollTrigger) return;
-    porte(); respire(); eclaire(); seuil(); arches(); soleil(); boussoles(); enfilade(); bandeau(); portrait(); porte404();
+    porte(); respire(); eclaire(); seuil(); arches(); soleil(); boussoles(); enfilade(); bandeau(); portrait(); porte404(); visionneuse(); suivi(); titreRange();
     quand('pret', () => { modules().catch((e) => console.error('[modules]', e)); });
     /* Ombre de l'en-tête dès qu'on a quitté le haut de la page. */
     window.addEventListener('scroll', () => document.documentElement.classList.toggle('defile', window.scrollY > 8), { passive: true });
@@ -202,7 +282,7 @@ demarrer({
     if (!gsap) return;
     gsap.set(premierEcran(), { clearProps: 'transform,opacity' });
     gsap.set($$('.hero-ligne, .titre-ligne'), { yPercent: 0, y: 0 });
-    $$('.hero-contour path, .ap-contour path, .intro-arche path').forEach((p) => { p.style.strokeDashoffset = '0'; });
+    $$('.hero-contour path, .ap-contour path, .intro-arche path, .fin-arche path').forEach((p) => { p.style.strokeDashoffset = '0'; });
     const enf = $('[data-effet="enfilade"]');
     if (enf) gsap.set(enf, { clearProps: 'clipPath' });
     $$('[data-effet="arche"]').forEach((f) => gsap.set(f, { clipPath: ARCHE_OUVERTE }));

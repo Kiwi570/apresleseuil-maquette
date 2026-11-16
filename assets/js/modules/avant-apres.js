@@ -5,7 +5,7 @@
 //              découvrir l'après ; « Tout voir » remplace le geste au clavier ; au-delà d'un seuil, la vitre se dégage seule.
 // Plusieurs paires (chantiers) : onglets accessibles, une légende par paire. Au doigt, le défilement vertical reste libre.
 // Mode calme : réglet posé au milieu, sans buée ni balayage. Sans JavaScript : les deux photos côte à côte, légendées.
-import { pret } from './pont.js?v=1';
+import { pret } from './pont.js?v=2';
 
 const borne = (v, a, b) => Math.min(b, Math.max(a, v));
 const doux = t => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;

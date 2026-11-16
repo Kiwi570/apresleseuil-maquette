@@ -336,5 +336,65 @@
   "consigne_scene": "An old weathered wooden door painted faded teal blue, set in a dry-stone wall and left slightly ajar, a few olive leaves on the stone step, a glimpse of a sunny garden path through the gap",
   "alt": "Une vieille porte bleue entrouverte dans un mur de pierre",
   "beaute": 4
+ },
+ {
+  "source": "recu/apresleseuil-recu/renovation-cuisine.jpg",
+  "nom": "real-cuisine-plein",
+  "role": "galerie",
+  "ratio": "original",
+  "largeurs": [
+   800,
+   1400
+  ],
+  "alt": "Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/entree-maison-amelioree.jpg",
+  "nom": "real-entree-plein",
+  "role": "galerie",
+  "ratio": "original",
+  "largeurs": [
+   800,
+   1400
+  ],
+  "alt": "Entrée réaménagée avec un grand meuble bois et noir",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/sejour-renove.jpg",
+  "nom": "real-sejour-plein",
+  "role": "galerie",
+  "ratio": "original",
+  "largeurs": [
+   800,
+   1400
+  ],
+  "alt": "Séjour rénové, îlot clair et suspension",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/valet-chambre.jpg",
+  "nom": "real-valet-plein",
+  "role": "galerie",
+  "ratio": "original",
+  "largeurs": [
+   800,
+   1400
+  ],
+  "alt": "Valet de chambre en bois restauré",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/lampe-crochet.jpg",
+  "nom": "real-lampe-plein",
+  "role": "galerie",
+  "ratio": "original",
+  "largeurs": [
+   800,
+   1400
+  ],
+  "alt": "Suspension réalisée au crochet au-dessus d'un lit",
+  "beaute": 3
  }
 ]

@@ -7,12 +7,12 @@
       "fichier": "assets/partage/a-propos-fr.jpg",
       "gabarit": "droite",
       "image": "christel-bleu-960.webp",
-      "poids": 68888,
+      "poids": 69135,
       "sujet": {
-        "x": 662,
+        "x": 655,
         "y": 0,
-        "l": 473,
-        "h": 478
+        "l": 464,
+        "h": 596
       },
       "textes": [
         {
@@ -36,7 +36,7 @@
         {
           "x": 600,
           "y": 0,
-          "l": 54,
+          "l": 47,
           "h": 630
         }
       ],

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#F5EFE4">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -121,24 +121,24 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h1 class="ap-titre"><span class="ligne-masque"><span class="titre-ligne">Accompagner les passages,</span></span><span class="ligne-masque"><span class="titre-ligne"><em>autrement.</em></span></span></h1>
       <p class="masque-ecran-bas masque-petit-tel" data-anime="gsap">Il y a des moments où la vie invite à changer de place, de rythme ou de direction. Après le Seuil repose sur une idée simple : un changement, même subi, peut devenir l’occasion de construire quelque chose de plus juste pour soi.</p>
       <p class="masque-ecran-tres-bas masque-petit-tel" data-anime="gsap">J’accompagne des personnes, des équipes et des projets dans leurs transitions personnelles, professionnelles ou liées au lieu de vie.</p>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale>Premier échange offert</a> <span class="info-cle" data-info-cle>À distance ou dans le sud de l’Ardèche</span></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale data-survol="magnetique">Premier échange offert</a> <span class="info-cle" data-info-cle>À distance ou dans le sud de l’Ardèche</span></p>
     </div>
   </div>
 </section>
 <section class="volets fond-sable" id="volets">
   <div class="conteneur">
     <h2 class="volets-titre" data-anime="lignes">Un parcours entre transmission, lieux et accompagnement</h2>
-    <ol class="volets-liste" data-anime="cascade">
-      <li class="volet">
-        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M8 50c6-4 10-4 14 0M56 50c-6-4-10-4-14 0"/><path d="M10 50V38c0-4 3-6 6-6M54 50V38c0-4-3-6-6-6"/><path d="M42 6C30 10 24 22 26 38l4-2c-2-12 4-24 12-30z"/><path d="M28 30l6-4M30 22l6-3"/></svg></span>
+    <ol class="trois-cartes volets-liste" data-anime="cascade">
+      <li>
+        <span class="trois-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M8 50c6-4 10-4 14 0M56 50c-6-4-10-4-14 0"/><path d="M10 50V38c0-4 3-6 6-6M54 50V38c0-4-3-6-6-6"/><path d="M42 6C30 10 24 22 26 38l4-2c-2-12 4-24 12-30z"/><path d="M28 30l6-4M30 22l6-3"/></svg></span>
         <h3>Transmission</h3>
         <p>Issue de l’enseignement et du management, j’ai à cœur de transmettre et de faire grandir.</p>
-      </li><li class="volet">
-        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 30L32 8l26 22"/><path d="M12 25v29h40V25"/><path d="M27 54V40a5 5 0 0 1 10 0v14"/><path d="M46 14v-5h5v10"/></svg></span>
+      </li><li>
+        <span class="trois-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 30L32 8l26 22"/><path d="M12 25v29h40V25"/><path d="M27 54V40a5 5 0 0 1 10 0v14"/><path d="M46 14v-5h5v10"/></svg></span>
         <h3>Les lieux</h3>
         <p>Passionnée par l’habitat et la décoration, je crée des lieux qui soutiennent les transformations.</p>
-      </li><li class="volet">
-        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><circle cx="46" cy="14" r="7"/><path d="M6 54c14-2 18-8 12-14s2-12 20-14"/><path d="M18 56c10 0 16-4 13-10s5-10 17-12"/><path d="M10 24c0-4 2-8 4-10M14 14c2 2 2 6 0 10M10 24c2-1 4-1 4 0"/></svg></span>
+      </li><li>
+        <span class="trois-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><circle cx="46" cy="14" r="7"/><path d="M6 54c14-2 18-8 12-14s2-12 20-14"/><path d="M18 56c10 0 16-4 13-10s5-10 17-12"/><path d="M10 24c0-4 2-8 4-10M14 14c2 2 2 6 0 10M10 24c2-1 4-1 4 0"/></svg></span>
         <h3>Le passage</h3>
         <p>Une approche concrète pour traverser les changements de vie avec plus de clarté.</p>
       </li>
@@ -162,56 +162,86 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <h2 data-anime="lignes">Quelques réalisations</h2>
       <p data-anime>Transformer un lieu, recycler et rénover, désencombrer, créer : des projets menés en Ardèche.</p>
     </div>
-    <ul class="mosaique" data-anime="cascade">
-      <li class="mosaique-item mosaique-item--1">
-        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+    <ul class="mosaique" data-anime="cascade" data-visionneuse-liste>
+      <li class="mosaique-item">
+        <button type="button" class="mosaique-bouton" data-visionneuse-index="0" data-plein="/assets/images/real-entree-plein-1400.webp" data-legende="Une entrée réaménagée" aria-label="Agrandir : Une entrée réaménagée">
+          <figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/real-entree-800.webp" srcset="/assets/images/real-entree-480.webp 480w, /assets/images/real-entree-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Entrée réaménagée avec un grand meuble bois et noir" width="800" height="1067" loading="lazy" decoding="async">
+    <img src="/assets/images/real-entree-800.webp" srcset="/assets/images/real-entree-480.webp 480w, /assets/images/real-entree-800.webp 800w" sizes="(max-width: 900px) 46vw, 30vw" alt="Entrée réaménagée avec un grand meuble bois et noir" width="800" height="1067" loading="lazy" decoding="async">
   </picture>
 </figure>
+          <span class="mosaique-loupe" aria-hidden="true">+</span>
+        </button>
         <p><span class="mosaique-cat">Transformer un lieu</span>Une entrée réaménagée</p>
-      </li><li class="mosaique-item mosaique-item--2">
-        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+      </li><li class="mosaique-item">
+        <button type="button" class="mosaique-bouton" data-visionneuse-index="1" data-plein="/assets/images/real-cuisine-plein-1400.webp" data-legende="Une cuisine rénovée" aria-label="Agrandir : Une cuisine rénovée">
+          <figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/real-cuisine-1200.webp" srcset="/assets/images/real-cuisine-480.webp 480w, /assets/images/real-cuisine-800.webp 800w, /assets/images/real-cuisine-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 30vw" alt="Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir" width="1200" height="900" loading="lazy" decoding="async">
+    <img src="/assets/images/real-cuisine-1200.webp" srcset="/assets/images/real-cuisine-480.webp 480w, /assets/images/real-cuisine-800.webp 800w, /assets/images/real-cuisine-1200.webp 1200w" sizes="(max-width: 900px) 92vw, 30vw" alt="Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir" width="1200" height="900" loading="lazy" decoding="async">
   </picture>
 </figure>
+          <span class="mosaique-loupe" aria-hidden="true">+</span>
+        </button>
         <p><span class="mosaique-cat">Transformer un lieu</span>Une cuisine rénovée</p>
-      </li><li class="mosaique-item mosaique-item--3">
-        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+      </li><li class="mosaique-item">
+        <button type="button" class="mosaique-bouton" data-visionneuse-index="2" data-plein="/assets/images/real-sejour-plein-1400.webp" data-legende="Un séjour rénové" aria-label="Agrandir : Un séjour rénové">
+          <figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/real-sejour-800.webp" srcset="/assets/images/real-sejour-480.webp 480w, /assets/images/real-sejour-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Séjour rénové, îlot clair et suspension" width="800" height="1067" loading="lazy" decoding="async">
+    <img src="/assets/images/real-sejour-800.webp" srcset="/assets/images/real-sejour-480.webp 480w, /assets/images/real-sejour-800.webp 800w" sizes="(max-width: 900px) 46vw, 30vw" alt="Séjour rénové, îlot clair et suspension" width="800" height="1067" loading="lazy" decoding="async">
   </picture>
 </figure>
+          <span class="mosaique-loupe" aria-hidden="true">+</span>
+        </button>
         <p><span class="mosaique-cat">Transformer un lieu</span>Un séjour rénové</p>
-      </li><li class="mosaique-item mosaique-item--4">
-        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+      </li><li class="mosaique-item">
+        <button type="button" class="mosaique-bouton" data-visionneuse-index="3" data-plein="/assets/images/real-valet-plein-1400.webp" data-legende="Un valet de chambre" aria-label="Agrandir : Un valet de chambre">
+          <figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/real-valet-800.webp" srcset="/assets/images/real-valet-480.webp 480w, /assets/images/real-valet-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Valet de chambre en bois restauré" width="800" height="1067" loading="lazy" decoding="async">
+    <img src="/assets/images/real-valet-800.webp" srcset="/assets/images/real-valet-480.webp 480w, /assets/images/real-valet-800.webp 800w" sizes="(max-width: 900px) 46vw, 30vw" alt="Valet de chambre en bois restauré" width="800" height="1067" loading="lazy" decoding="async">
   </picture>
 </figure>
+          <span class="mosaique-loupe" aria-hidden="true">+</span>
+        </button>
         <p><span class="mosaique-cat">Recycler et rénover</span>Un valet de chambre</p>
-      </li><li class="mosaique-item mosaique-item--5">
-        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+      </li><li class="mosaique-item">
+        <button type="button" class="mosaique-bouton" data-visionneuse-index="4" data-plein="/assets/images/real-lampe-plein-1400.webp" data-legende="Une suspension au crochet" aria-label="Agrandir : Une suspension au crochet">
+          <figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/real-lampe-800.webp" srcset="/assets/images/real-lampe-480.webp 480w, /assets/images/real-lampe-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Suspension réalisée au crochet au-dessus d&#39;un lit" width="800" height="1067" loading="lazy" decoding="async">
+    <img src="/assets/images/real-lampe-800.webp" srcset="/assets/images/real-lampe-480.webp 480w, /assets/images/real-lampe-800.webp 800w" sizes="(max-width: 900px) 46vw, 30vw" alt="Suspension réalisée au crochet au-dessus d&#39;un lit" width="800" height="1067" loading="lazy" decoding="async">
   </picture>
 </figure>
+          <span class="mosaique-loupe" aria-hidden="true">+</span>
+        </button>
         <p><span class="mosaique-cat">Créer</span>Une suspension au crochet</p>
       </li>
+      <li class="mosaique-item mosaique-lien">
+        <a href="/#realisations" data-libelle="Accueil">
+          <span class="mosaique-lien-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M14 40V26a6 6 0 0 1 6-6h24a6 6 0 0 1 6 6v14"/><path d="M10 32a4 4 0 0 1 4 4v6h36v-6a4 4 0 0 1 8 0v10H6V36a4 4 0 0 1 4-4z"/><path d="M14 46v6M50 46v6"/></svg></span>
+          <span class="mosaique-lien-titre">Voir les avant / après</span>
+          <span class="mosaique-lien-texte">Dressing, buffet, bahut : faites glisser pour comparer.</span>
+          <span class="lien-fleche lien-fleche--clair">Découvrir</span>
+        </a>
+      </li>
     </ul>
-    <p class="note" data-anime><a href="/#realisations" class="lien-fleche" data-libelle="Accueil">Transformer, en partant de ce qui est déjà là</a></p>
+  </div>
+  <div class="visionneuse" role="dialog" aria-modal="true" aria-label="Réalisations en grand" hidden data-recouvrement data-gouttiere="#163A44">
+    <figure class="visionneuse-cadre"><figcaption aria-live="polite"></figcaption></figure>
+    <button type="button" class="visionneuse-btn visionneuse-precedente" aria-label="Réalisation précédente">←</button>
+    <button type="button" class="visionneuse-btn visionneuse-suivante" aria-label="Réalisation suivante">→</button>
+    <button type="button" class="visionneuse-btn visionneuse-fermer" aria-label="Fermer">×</button>
   </div>
 </section>
 <section class="fin" id="fin">
   <div class="fin-soleil" data-effet="soleil" aria-hidden="true">
-    <svg viewBox="-200 -200 400 400" class="soleil-rayons" data-visuel>
-      <line x1="110.0" y1="0.0" x2="190.0" y2="0.0"/><line x1="115.9" y1="31.1" x2="154.5" y2="41.4"/><line x1="95.3" y1="55.0" x2="164.5" y2="95.0"/><line x1="84.9" y1="84.9" x2="113.1" y2="113.1"/><line x1="55.0" y1="95.3" x2="95.0" y2="164.5"/><line x1="31.1" y1="115.9" x2="41.4" y2="154.5"/><line x1="0.0" y1="110.0" x2="0.0" y2="190.0"/><line x1="-31.1" y1="115.9" x2="-41.4" y2="154.5"/><line x1="-55.0" y1="95.3" x2="-95.0" y2="164.5"/><line x1="-84.9" y1="84.9" x2="-113.1" y2="113.1"/><line x1="-95.3" y1="55.0" x2="-164.5" y2="95.0"/><line x1="-115.9" y1="31.1" x2="-154.5" y2="41.4"/><line x1="-110.0" y1="0.0" x2="-190.0" y2="0.0"/><line x1="-115.9" y1="-31.1" x2="-154.5" y2="-41.4"/><line x1="-95.3" y1="-55.0" x2="-164.5" y2="-95.0"/><line x1="-84.9" y1="-84.9" x2="-113.1" y2="-113.1"/><line x1="-55.0" y1="-95.3" x2="-95.0" y2="-164.5"/><line x1="-31.1" y1="-115.9" x2="-41.4" y2="-154.5"/><line x1="-0.0" y1="-110.0" x2="-0.0" y2="-190.0"/><line x1="31.1" y1="-115.9" x2="41.4" y2="-154.5"/><line x1="55.0" y1="-95.3" x2="95.0" y2="-164.5"/><line x1="84.9" y1="-84.9" x2="113.1" y2="-113.1"/><line x1="95.3" y1="-55.0" x2="164.5" y2="-95.0"/><line x1="115.9" y1="-31.1" x2="154.5" y2="-41.4"/>
+    <svg viewBox="-300 -300 600 300" class="soleil" data-visuel>
+      <defs><radialGradient id="soleil-halo" cx="0" cy="0" r="140" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E9C88C" stop-opacity=".95"/><stop offset=".72" stop-color="#D7B072" stop-opacity=".55"/><stop offset="1" stop-color="#D7B072" stop-opacity="0"/></radialGradient></defs>
+      <g class="soleil-rayons"><line x1="-150.0" y1="0.0" x2="-280.0" y2="0.0"/><line x1="-147.1" y1="-29.3" x2="-225.6" y2="-44.9"/><line x1="-138.6" y1="-57.4" x2="-258.7" y2="-107.2"/><line x1="-124.7" y1="-83.3" x2="-191.2" y2="-127.8"/><line x1="-106.1" y1="-106.1" x2="-198.0" y2="-198.0"/><line x1="-83.3" y1="-124.7" x2="-127.8" y2="-191.2"/><line x1="-57.4" y1="-138.6" x2="-107.2" y2="-258.7"/><line x1="-29.3" y1="-147.1" x2="-44.9" y2="-225.6"/><line x1="-0.0" y1="-150.0" x2="-0.0" y2="-280.0"/><line x1="29.3" y1="-147.1" x2="44.9" y2="-225.6"/><line x1="57.4" y1="-138.6" x2="107.2" y2="-258.7"/><line x1="83.3" y1="-124.7" x2="127.8" y2="-191.2"/><line x1="106.1" y1="-106.1" x2="198.0" y2="-198.0"/><line x1="124.7" y1="-83.3" x2="191.2" y2="-127.8"/><line x1="138.6" y1="-57.4" x2="258.7" y2="-107.2"/><line x1="147.1" y1="-29.3" x2="225.6" y2="-44.9"/><line x1="150.0" y1="-0.0" x2="280.0" y2="-0.0"/></g>
+      <circle class="soleil-disque" cx="0" cy="0" r="120" fill="url(#soleil-halo)"/>
+      <path class="soleil-bord" d="M-120 0a120 120 0 0 1 240 0"/>
     </svg>
-    <span class="soleil-disque"></span>
   </div>
   <div class="fin-texte conteneur">
-    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path pathLength="1" d="M180 470V202a164 164 0 0 1 328 0v158"/><path pathLength="1" d="M222 418V204a122 122 0 0 1 244 0v168"/><path pathLength="1" d="M268 470V204a76 76 0 0 1 152 0v174"/><path pathLength="1" d="M180 470h88"/><path pathLength="1" d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
     <h2 data-anime="lignes">Faisons connaissance.</h2>
     <p data-anime>Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.</p>
     <p class="fin-actions" data-anime>
@@ -227,6 +257,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       <svg class="arche-svg pied-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
       <p class="pied-nom">Après le Seuil</p>
       <p class="pied-signature">Des lieux et des vies en transition</p>
+      <p class="pied-action"><a class="lien-fleche" href="/contact#rendez-vous" data-libelle="Contact">Premier échange offert</a></p>
     </div>
     <div>
       <p class="pied-titre">Nous contacter</p>

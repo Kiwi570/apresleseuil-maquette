@@ -15,7 +15,7 @@ export default (c) => html`
     <h1 class="pro-titre"><span class="ligne-masque"><span class="titre-ligne">${c.t('professionnels.titre1')}</span></span><span class="ligne-masque"><span class="titre-ligne"><em>${c.t('professionnels.titre2')}</em></span></span></h1>
     <div class="pro-colonne">
       <p class="pro-intro masque-ecran-bas masque-petit-tel" data-anime="gsap">${c.t('professionnels.texte')}</p>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="${c.url('contact', 'rendez-vous', 'sujet=entreprise')}" data-libelle="${c.libelle('contact')}" data-action-principale>${c.t('professionnels.action')}</a> <span class="info-cle" data-info-cle>${c.t('professionnels.info')}</span></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="${c.url('contact', 'rendez-vous', 'sujet=entreprise')}" data-libelle="${c.libelle('contact')}" data-action-principale data-survol="magnetique">${c.t('professionnels.action')}</a> <span class="info-cle" data-info-cle>${c.t('professionnels.info')}</span></p>
     </div>
   </div>
   <div class="pro-bande-cadre">

@@ -4,6 +4,10 @@ import { html } from '../../outils/gabarit.mjs';
 import { contour, appelFinal } from '../gabarits/commun.mjs';
 import { icone, porte } from '../gabarits/icones.mjs';
 
+/* « Faire de la place » : lettres entassées qui se rangent au défilement (site.js, titreRange). Le texte reste lu d'un bloc.
+   data-superpose : les lettres en vrac se chevauchent exprès avant de se ranger (vérifié sur les captures). */
+const titreRange = (texte) => html`<h2 class="titre-range" data-grille="typo"><span class="visuellement-cache">${texte}</span><span class="titre-range-lettres" aria-hidden="true" data-superpose>${texte.split(' ').map((m, k) => html`${k ? ' ' : ''}<span class="tr-mot">${[...m].map((l) => html`<span class="tr-l">${l}</span>`)}</span>`)}</span></h2>`;
+
 export const page = { cle: 'particuliers', fichier: 'particuliers', imagePartage: 'grok/particuliers-ouverture-1280.webp' };
 
 const sommaire = [
@@ -26,7 +30,7 @@ export default (c) => html`
       <p class="surtitre" data-anime="gsap">${c.t('particuliers.surtitre')}</p>
       <h1 class="p-titre"><span class="ligne-masque"><span class="titre-ligne">${c.t('particuliers.titre1')}</span></span><span class="ligne-masque"><span class="titre-ligne"><em>${c.t('particuliers.titre2')}</em></span></span></h1>
       <p class="p-intro masque-ecran-bas masque-petit-tel" data-anime="gsap">${c.t('particuliers.texte')}</p>
-      <p class="actions" data-anime="gsap"><a class="bouton" href="${c.url('contact', 'rendez-vous')}" data-libelle="${c.libelle('contact')}" data-action-principale>${c.t('particuliers.action')}</a></p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="${c.url('contact', 'rendez-vous')}" data-libelle="${c.libelle('contact')}" data-action-principale data-survol="magnetique">${c.t('particuliers.action')}</a></p>
       <p class="info-cle" data-info-cle data-anime="gsap">${c.t('particuliers.info')}</p>
     </div>
     <nav class="portes-sommaire" aria-label="${c.s('particuliers.sommaire')}" data-iris-centre>
@@ -38,6 +42,13 @@ export default (c) => html`
     </nav>
   </div>
 </section>
+
+<nav class="suivi" data-grille="fil" data-sommaire aria-label="${c.s('particuliers.suivre')}">
+  <ul>
+    ${sommaire.map(([ancre, cle]) => html`<li><a href="#${ancre}" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">${c.t(`particuliers.${cle}.nav`)}</span></a></li>`)}
+    <li><a href="#villa" data-sans-transition><span class="suivi-arche" aria-hidden="true"></span><span class="suivi-nom">${c.t('particuliers.villa.titre')}</span></a></li>
+  </ul>
+</nav>
 
 <section class="acc acc--depart" id="depart">
   <div class="conteneur acc-grille">
@@ -91,7 +102,7 @@ export default (c) => html`
   <div class="conteneur place-grille">
     <div class="place-tete">
       <p class="etiquette" data-anime>${c.t('particuliers.place.etiquette')}</p>
-      <h2 data-anime="lignes">${c.t('particuliers.place.titre')}</h2>
+      ${titreRange(c.s('particuliers.place.titre'))}
       <p class="sous-titre" data-anime>${c.t('particuliers.place.sous')}</p>
       ${liste(c, 'particuliers.place.', ['l1', 'l2', 'l3', 'l4'])}
     </div>
