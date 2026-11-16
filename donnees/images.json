@@ -1,0 +1,1953 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-fonce.png",
+    "role": "logo",
+    "alt": "Après le Seuil",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "7463d3bda630161d",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp",
+      "logo-480.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 9134,
+      "logo-480.webp": 19308
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Après le Seuil\", sizes: '240px' })"
+  },
+  "christel": {
+    "nom": "christel",
+    "source": "recu/apresleseuil-recu/christel-ketterlin-2.png",
+    "role": "portrait",
+    "alt": "Christel Ketterlin, assise sur une table en bois, en chemise de lin claire",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "149f65842bea4edb",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "48% 24%",
+    "sujet": {
+      "x": 21,
+      "y": 0.2,
+      "l": 53,
+      "h": 56
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.29,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1122,
+      "height": 1402,
+      "source": [
+        1122,
+        1402
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1122 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "christel-480.webp",
+      "christel-640.webp",
+      "christel-960.webp"
+    ],
+    "poids": {
+      "christel-480.webp": 26414,
+      "christel-640.webp": 38432,
+      "christel-960.webp": 65924
+    },
+    "media": "c.media({ nom: 'christel', alt: \"Christel Ketterlin, assise sur une table en bois, en chemise de lin claire\", cadrage: '48% 24%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "christel-bleu": {
+    "nom": "christel-bleu",
+    "source": "recu/apresleseuil-recu/christel-ketterlin.png",
+    "role": "portrait",
+    "alt": "Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a581aae04bec43bd",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      640,
+      960
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 10.4,
+      "y": 2.1,
+      "l": 78.8,
+      "h": 67.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.55,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 113,
+      "width": 1024,
+      "height": 1280,
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1024 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "christel-bleu-480.webp",
+      "christel-bleu-640.webp",
+      "christel-bleu-960.webp"
+    ],
+    "poids": {
+      "christel-bleu-480.webp": 21592,
+      "christel-bleu-640.webp": 33812,
+      "christel-bleu-960.webp": 64004
+    },
+    "media": "c.media({ nom: 'christel-bleu', alt: \"Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 40vw', ratio: '4 / 5' })"
+  },
+  "villa": {
+    "nom": "villa",
+    "source": "recu/apresleseuil-recu/villa-apres-seuil.png",
+    "role": "galerie",
+    "alt": "La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3aee4db94d63fc67",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      960,
+      1180
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "49% 51%"
+    },
+    "cadrage": "40% 66%",
+    "sujet": {
+      "x": 13.2,
+      "y": 35.3,
+      "l": 57.4,
+      "h": 62.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.27,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": "haut",
+    "recadrage": {
+      "left": 0,
+      "top": 13,
+      "width": 1195,
+      "height": 672,
+      "source": [
+        1195,
+        896
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1195 px de large"
+    ],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "villa-640.webp",
+      "villa-960.webp",
+      "villa-1180.webp",
+      "villa-mobile-640.webp"
+    ],
+    "poids": {
+      "villa-640.webp": 42500,
+      "villa-960.webp": 87472,
+      "villa-1180.webp": 123998,
+      "villa-mobile-640.webp": 80554
+    },
+    "media": "c.media({ nom: 'villa', alt: \"La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin\", cadrage: '40% 66%', cadrageMobile: '49% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '16 / 9' })"
+  },
+  "real-cuisine": {
+    "nom": "real-cuisine",
+    "source": "recu/apresleseuil-recu/renovation-cuisine.jpg",
+    "role": "galerie",
+    "alt": "Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "86f997b8c12bcc44",
+    "ratio": "4:3",
+    "largeurs": [
+      480,
+      800,
+      1200
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 22.8,
+      "y": 27.9,
+      "l": 62.9,
+      "h": 27.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.56,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.55,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 152,
+      "top": 0,
+      "width": 1777,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-cuisine-480.webp",
+      "real-cuisine-800.webp",
+      "real-cuisine-1200.webp"
+    ],
+    "poids": {
+      "real-cuisine-480.webp": 16704,
+      "real-cuisine-800.webp": 35904,
+      "real-cuisine-1200.webp": 63726
+    },
+    "media": "c.media({ nom: 'real-cuisine', alt: \"Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 3' })"
+  },
+  "real-entree": {
+    "nom": "real-entree",
+    "source": "recu/apresleseuil-recu/entree-maison-amelioree.jpg",
+    "role": "galerie",
+    "alt": "Entrée réaménagée avec un grand meuble bois et noir",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "451286d28fabe139",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "56% 58%",
+    "sujet": {
+      "x": 36.7,
+      "y": 42.1,
+      "l": 44.5,
+      "h": 57.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.52,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.31,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-entree-480.webp",
+      "real-entree-800.webp"
+    ],
+    "poids": {
+      "real-entree-480.webp": 16064,
+      "real-entree-800.webp": 31308
+    },
+    "media": "c.media({ nom: 'real-entree', alt: \"Entrée réaménagée avec un grand meuble bois et noir\", cadrage: '56% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-sejour": {
+    "nom": "real-sejour",
+    "source": "recu/apresleseuil-recu/sejour-renove.jpg",
+    "role": "galerie",
+    "alt": "Séjour rénové, îlot clair et suspension",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "acd5167c1992d795",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "40% 44%",
+    "sujet": {
+      "x": 22.1,
+      "y": 32.4,
+      "l": 36.8,
+      "h": 23.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.76,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.43,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.29,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-sejour-480.webp",
+      "real-sejour-800.webp"
+    ],
+    "poids": {
+      "real-sejour-480.webp": 22516,
+      "real-sejour-800.webp": 44104
+    },
+    "media": "c.media({ nom: 'real-sejour', alt: \"Séjour rénové, îlot clair et suspension\", cadrage: '40% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-valet": {
+    "nom": "real-valet",
+    "source": "recu/apresleseuil-recu/valet-chambre.jpg",
+    "role": "galerie",
+    "alt": "Valet de chambre en bois restauré",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2d99724a94c50057",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "46% 35%",
+    "sujet": {
+      "x": 20.5,
+      "y": 8.6,
+      "l": 55.4,
+      "h": 72.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.65,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.6,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.33,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-valet-480.webp",
+      "real-valet-800.webp"
+    ],
+    "poids": {
+      "real-valet-480.webp": 15598,
+      "real-valet-800.webp": 32904
+    },
+    "media": "c.media({ nom: 'real-valet', alt: \"Valet de chambre en bois restauré\", cadrage: '46% 35%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "real-lampe": {
+    "nom": "real-lampe",
+    "source": "recu/apresleseuil-recu/lampe-crochet.jpg",
+    "role": "galerie",
+    "alt": "Suspension réalisée au crochet au-dessus d'un lit",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "ea50f107719505fb",
+    "ratio": "3:4",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "36% 43%",
+    "sujet": {
+      "x": 8.8,
+      "y": 22.3,
+      "l": 54.2,
+      "h": 36.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.63,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.6,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.35,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.33,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "real-lampe-480.webp",
+      "real-lampe-800.webp"
+    ],
+    "poids": {
+      "real-lampe-480.webp": 34516,
+      "real-lampe-800.webp": 90586
+    },
+    "media": "c.media({ nom: 'real-lampe', alt: \"Suspension réalisée au crochet au-dessus d'un lit\", cadrage: '36% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "buffet-avant": {
+    "nom": "buffet-avant",
+    "source": "recu/apresleseuil-recu/buffet-avant.png",
+    "role": "vignette",
+    "alt": "Le buffet avant : bois verni orangé",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "fd93da678cec9637",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 6.4,
+      "y": 0.8,
+      "l": 89.4,
+      "h": 99.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.26,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 175,
+      "width": 1123,
+      "height": 1123,
+      "source": [
+        1123,
+        1381
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1123 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "buffet-avant-480.webp",
+      "buffet-avant-800.webp"
+    ],
+    "poids": {
+      "buffet-avant-480.webp": 21192,
+      "buffet-avant-800.webp": 37930
+    },
+    "media": "c.media({ nom: 'buffet-avant', alt: \"Le buffet avant : bois verni orangé\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "buffet-apres": {
+    "nom": "buffet-apres",
+    "source": "recu/apresleseuil-recu/buffet-apres.jpg",
+    "role": "vignette",
+    "alt": "Le buffet après : repeint en bleu nuit, plateau bois naturel",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "672e1288986e16a7",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "49% 50%",
+    "sujet": {
+      "x": 8.7,
+      "y": 2.1,
+      "l": 76,
+      "h": 97.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.11,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 190,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "buffet-apres-480.webp",
+      "buffet-apres-800.webp"
+    ],
+    "poids": {
+      "buffet-apres-480.webp": 22270,
+      "buffet-apres-800.webp": 49166
+    },
+    "media": "c.media({ nom: 'buffet-apres', alt: \"Le buffet après : repeint en bleu nuit, plateau bois naturel\", cadrage: '49% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "bahut-avant": {
+    "nom": "bahut-avant",
+    "source": "recu/apresleseuil-recu/bahut-avant.jpg",
+    "role": "vignette",
+    "alt": "Le bahut avant : bois sombre, vitrines chargées",
+    "grok": false,
+    "mention": null,
+    "beaute": 2,
+    "empreinte": "e990de93d3a4f726",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 32.1,
+      "y": 32.4,
+      "l": 35.3,
+      "h": 29.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.32,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.23,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 129,
+      "top": 0,
+      "width": 889,
+      "height": 889,
+      "source": [
+        1125,
+        889
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1125 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "bahut-avant-480.webp",
+      "bahut-avant-800.webp"
+    ],
+    "poids": {
+      "bahut-avant-480.webp": 22480,
+      "bahut-avant-800.webp": 39640
+    },
+    "media": "c.media({ nom: 'bahut-avant', alt: \"Le bahut avant : bois sombre, vitrines chargées\", cadrage: '50% 48%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "bahut-apres": {
+    "nom": "bahut-apres",
+    "source": "recu/apresleseuil-recu/bahut-apres.jpg",
+    "role": "vignette",
+    "alt": "Le bahut après : blanc, cannage et tissu à motifs",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "6e87f7598b586140",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 8.5,
+      "y": 22,
+      "l": 82.7,
+      "h": 68.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.63,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.58,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.43,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.42,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 230,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        1500,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "bahut-apres-480.webp",
+      "bahut-apres-800.webp"
+    ],
+    "poids": {
+      "bahut-apres-480.webp": 16710,
+      "bahut-apres-800.webp": 42168
+    },
+    "media": "c.media({ nom: 'bahut-apres', alt: \"Le bahut après : blanc, cannage et tissu à motifs\", sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "dressing-avant": {
+    "nom": "dressing-avant",
+    "source": "recu/apresleseuil-recu/dressing-avant.png",
+    "role": "vignette",
+    "alt": "Le dressing avant : vêtements entassés au sol",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2b6142f5987dc7d3",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 22.3,
+      "y": 25,
+      "l": 54.9,
+      "h": 44.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.19,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.16,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 282,
+      "top": 0,
+      "width": 941,
+      "height": 941,
+      "source": [
+        1672,
+        941
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "dressing-avant-480.webp",
+      "dressing-avant-800.webp"
+    ],
+    "poids": {
+      "dressing-avant-480.webp": 44178,
+      "dressing-avant-800.webp": 99226
+    },
+    "media": "c.media({ nom: 'dressing-avant', alt: \"Le dressing avant : vêtements entassés au sol\", cadrage: '50% 49%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "dressing-apres": {
+    "nom": "dressing-apres",
+    "source": "recu/apresleseuil-recu/dressing-apres.jpg",
+    "role": "vignette",
+    "alt": "Le dressing après : vêtements rangés sur portants",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "0ed7006008419366",
+    "ratio": "1:1",
+    "largeurs": [
+      480,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 14,
+      "y": 20.6,
+      "l": 75.7,
+      "h": 44.1
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.2,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.18,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 518,
+      "top": 0,
+      "width": 1125,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "dressing-apres-480.webp",
+      "dressing-apres-800.webp"
+    ],
+    "poids": {
+      "dressing-apres-480.webp": 38572,
+      "dressing-apres-800.webp": 85458
+    },
+    "media": "c.media({ nom: 'dressing-apres', alt: \"Le dressing après : vêtements rangés sur portants\", cadrage: '50% 41%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '1 / 1' })"
+  },
+  "grok/accueil-porte": {
+    "nom": "grok/accueil-porte",
+    "source": "recu/grok/accueil-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Une porte bleue grande ouverte sur une terrasse ensoleillée et les collines",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 5,
+    "empreinte": "72dd352f35ef036f",
+    "ratio": "4:5",
+    "largeurs": [
+      480,
+      800,
+      1100
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 55%"
+    },
+    "cadrage": "48% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 28.1,
+      "l": 84.6,
+      "h": 68.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.67,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.36,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.17,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        1200,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1200 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/accueil-porte-480.webp",
+      "grok/accueil-porte-800.webp",
+      "grok/accueil-porte-1100.webp",
+      "grok/accueil-porte-mobile-640.webp",
+      "grok/accueil-porte-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-porte-480.webp": 33902,
+      "grok/accueil-porte-800.webp": 86204,
+      "grok/accueil-porte-1100.webp": 143784,
+      "grok/accueil-porte-mobile-640.webp": 84310,
+      "grok/accueil-porte-mobile-1080.webp": 163240
+    },
+    "media": "c.media({ nom: 'grok/accueil-porte', alt: \"Une porte bleue grande ouverte sur une terrasse ensoleillée et les collines\", cadrage: '48% 55%', cadrageMobile: '50% 55%', sizes: '100vw', priorite: true })"
+  },
+  "grok/accueil-seuil": {
+    "nom": "grok/accueil-seuil",
+    "source": "recu/grok/accueil-seuil.jpg",
+    "role": "ouverture",
+    "alt": "La vallée d’oliviers et les collines au lever du soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "ba9d8448e099b0d2",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "47% 48%"
+    },
+    "cadrage": "47% 46%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/accueil-seuil-640.webp",
+      "grok/accueil-seuil-1280.webp",
+      "grok/accueil-seuil-1920.webp",
+      "grok/accueil-seuil-mobile-640.webp",
+      "grok/accueil-seuil-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/accueil-seuil-640.webp": 52868,
+      "grok/accueil-seuil-1280.webp": 117294,
+      "grok/accueil-seuil-1920.webp": 180584,
+      "grok/accueil-seuil-mobile-640.webp": 54840,
+      "grok/accueil-seuil-mobile-1080.webp": 101630
+    },
+    "media": "c.media({ nom: 'grok/accueil-seuil', alt: \"La vallée d’oliviers et les collines au lever du soleil\", cadrage: '47% 46%', cadrageMobile: '47% 48%', sizes: '100vw', priorite: true })"
+  },
+  "grok/carte-depart": {
+    "nom": "grok/carte-depart",
+    "source": "recu/grok/carte-depart.jpg",
+    "role": "carte-service",
+    "alt": "Une carte dépliée et une boussole sur une table en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "b6833a11386548c7",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "48% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-depart-480.webp",
+      "grok/carte-depart-640.webp",
+      "grok/carte-depart-784.webp"
+    ],
+    "poids": {
+      "grok/carte-depart-480.webp": 27336,
+      "grok/carte-depart-640.webp": 38590,
+      "grok/carte-depart-784.webp": 48556
+    },
+    "media": "c.media({ nom: 'grok/carte-depart', alt: \"Une carte dépliée et une boussole sur une table en bois\", cadrage: '48% 54%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-chezsoi": {
+    "nom": "grok/carte-chezsoi",
+    "source": "recu/grok/carte-chezsoi.jpg",
+    "role": "carte-service",
+    "alt": "Un coin salon baigné de lumière : lin, coussins et branche d’olivier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "31f6e8ebb1d88bf0",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "52% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-chezsoi-480.webp",
+      "grok/carte-chezsoi-640.webp",
+      "grok/carte-chezsoi-784.webp"
+    ],
+    "poids": {
+      "grok/carte-chezsoi-480.webp": 28758,
+      "grok/carte-chezsoi-640.webp": 39932,
+      "grok/carte-chezsoi-784.webp": 50224
+    },
+    "media": "c.media({ nom: 'grok/carte-chezsoi', alt: \"Un coin salon baigné de lumière : lin, coussins et branche d’olivier\", cadrage: '52% 52%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-place": {
+    "nom": "grok/carte-place",
+    "source": "recu/grok/carte-place.jpg",
+    "role": "carte-service",
+    "alt": "Des paniers en osier rangés au pied d’une échelle en bois",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "fda9a271bfa057d5",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "51% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 95.5,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.03,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-place-480.webp",
+      "grok/carte-place-640.webp",
+      "grok/carte-place-784.webp"
+    ],
+    "poids": {
+      "grok/carte-place-480.webp": 32290,
+      "grok/carte-place-640.webp": 44850,
+      "grok/carte-place-784.webp": 57082
+    },
+    "media": "c.media({ nom: 'grok/carte-place', alt: \"Des paniers en osier rangés au pied d’une échelle en bois\", cadrage: '51% 56%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-cap": {
+    "nom": "grok/carte-cap",
+    "source": "recu/grok/carte-cap.jpg",
+    "role": "carte-service",
+    "alt": "Une boussole posée sur un rocher, face aux collines",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "d1211cf5b93e14d1",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "45% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-cap-480.webp",
+      "grok/carte-cap-640.webp",
+      "grok/carte-cap-784.webp"
+    ],
+    "poids": {
+      "grok/carte-cap-480.webp": 33464,
+      "grok/carte-cap-640.webp": 46702,
+      "grok/carte-cap-784.webp": 58916
+    },
+    "media": "c.media({ nom: 'grok/carte-cap', alt: \"Une boussole posée sur un rocher, face aux collines\", cadrage: '45% 55%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/carte-atelier": {
+    "nom": "grok/carte-atelier",
+    "source": "recu/grok/carte-atelier.jpg",
+    "role": "carte-service",
+    "alt": "Pinceaux, bol en céramique et carnet sur une table d’atelier",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "435759bae6fd8209",
+    "ratio": "2:3",
+    "largeurs": [
+      480,
+      640,
+      784
+    ],
+    "mobile": null,
+    "cadrage": "53% 59%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 1500,
+      "source": [
+        1000,
+        1500
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "1000 px de large",
+      "floue"
+    ],
+    "avertissements": [],
+    "fichiers": [
+      "grok/carte-atelier-480.webp",
+      "grok/carte-atelier-640.webp",
+      "grok/carte-atelier-784.webp"
+    ],
+    "poids": {
+      "grok/carte-atelier-480.webp": 24000,
+      "grok/carte-atelier-640.webp": 32872,
+      "grok/carte-atelier-784.webp": 41722
+    },
+    "media": "c.media({ nom: 'grok/carte-atelier', alt: \"Pinceaux, bol en céramique et carnet sur une table d’atelier\", cadrage: '53% 59%', sizes: '(max-width: 760px) 100vw, 33vw', ratio: '2 / 3' })"
+  },
+  "grok/particuliers-ouverture": {
+    "nom": "grok/particuliers-ouverture",
+    "source": "recu/grok/particuliers-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Une maison de pierre aux portes bleues, ouverte sur la vallée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "6de8f179b35800ed",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "45% 44%"
+    },
+    "cadrage": "49% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/particuliers-ouverture-640.webp",
+      "grok/particuliers-ouverture-1280.webp",
+      "grok/particuliers-ouverture-1920.webp",
+      "grok/particuliers-ouverture-mobile-640.webp",
+      "grok/particuliers-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/particuliers-ouverture-640.webp": 57098,
+      "grok/particuliers-ouverture-1280.webp": 121876,
+      "grok/particuliers-ouverture-1920.webp": 183972,
+      "grok/particuliers-ouverture-mobile-640.webp": 81634,
+      "grok/particuliers-ouverture-mobile-1080.webp": 143498
+    },
+    "media": "c.media({ nom: 'grok/particuliers-ouverture', alt: \"Une maison de pierre aux portes bleues, ouverte sur la vallée\", cadrage: '49% 43%', cadrageMobile: '45% 44%', sizes: '100vw', priorite: true })"
+  },
+  "grok/pros-ouverture": {
+    "nom": "grok/pros-ouverture",
+    "source": "recu/grok/pros-ouverture.jpg",
+    "role": "ouverture",
+    "alt": "Une salle de réunion lumineuse dans une maison de pierre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "e8459d3716fbb627",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "49% 43%"
+    },
+    "cadrage": "47% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1600 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/pros-ouverture-640.webp",
+      "grok/pros-ouverture-1280.webp",
+      "grok/pros-ouverture-1920.webp",
+      "grok/pros-ouverture-mobile-640.webp",
+      "grok/pros-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/pros-ouverture-640.webp": 26496,
+      "grok/pros-ouverture-1280.webp": 55860,
+      "grok/pros-ouverture-1920.webp": 89726,
+      "grok/pros-ouverture-mobile-640.webp": 68240,
+      "grok/pros-ouverture-mobile-1080.webp": 122760
+    },
+    "media": "c.media({ nom: 'grok/pros-ouverture', alt: \"Une salle de réunion lumineuse dans une maison de pierre\", cadrage: '47% 58%', cadrageMobile: '49% 43%', sizes: '100vw', priorite: true })"
+  },
+  "grok/pros-table": {
+    "nom": "grok/pros-table",
+    "source": "recu/grok/pros-table.jpg",
+    "role": "section-fond",
+    "alt": "Une grande table dressée sur une terrasse ombragée",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "540512b05ec37682",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": null,
+    "cadrage": "47% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/pros-table-640.webp",
+      "grok/pros-table-1280.webp",
+      "grok/pros-table-1920.webp"
+    ],
+    "poids": {
+      "grok/pros-table-640.webp": 59566,
+      "grok/pros-table-1280.webp": 124722,
+      "grok/pros-table-1920.webp": 192488
+    },
+    "media": "c.media({ nom: 'grok/pros-table', alt: \"Une grande table dressée sur une terrasse ombragée\", cadrage: '47% 49%', sizes: '100vw' })"
+  },
+  "grok/contact-ouverture": {
+    "nom": "grok/contact-ouverture",
+    "source": "recu/grok/contact-ouverture.jpg",
+    "role": "section-fond",
+    "alt": "Une tasse, un carnet ouvert et une branche d’olivier au soleil",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "3a6f67eb9b729541",
+    "ratio": "3:2",
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 58%"
+    },
+    "cadrage": "54% 58%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1500,
+      "height": 1000,
+      "source": [
+        1500,
+        1000
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "floue"
+    ],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "grok/contact-ouverture-640.webp",
+      "grok/contact-ouverture-1280.webp",
+      "grok/contact-ouverture-1920.webp",
+      "grok/contact-ouverture-mobile-640.webp",
+      "grok/contact-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "grok/contact-ouverture-640.webp": 21174,
+      "grok/contact-ouverture-1280.webp": 46982,
+      "grok/contact-ouverture-1920.webp": 75400,
+      "grok/contact-ouverture-mobile-640.webp": 23026,
+      "grok/contact-ouverture-mobile-1080.webp": 42958
+    },
+    "media": "c.media({ nom: 'grok/contact-ouverture', alt: \"Une tasse, un carnet ouvert et une branche d’olivier au soleil\", cadrage: '54% 58%', cadrageMobile: '50% 58%', sizes: '100vw' })"
+  },
+  "grok/page-404": {
+    "nom": "grok/page-404",
+    "source": "recu/grok/page-404.jpg",
+    "role": "404",
+    "alt": "Une vieille porte bleue entrouverte dans un mur de pierre",
+    "grok": true,
+    "mention": "Illustration générée",
+    "beaute": 4,
+    "empreinte": "c09f104a815744bc",
+    "ratio": "16:9",
+    "largeurs": [
+      800,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "53% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 84.4,
+      "h": 94.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 900,
+      "source": [
+        1600,
+        900
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "grok/page-404-800.webp",
+      "grok/page-404-1600.webp"
+    ],
+    "poids": {
+      "grok/page-404-800.webp": 47576,
+      "grok/page-404-1600.webp": 102034
+    },
+    "media": "c.media({ nom: 'grok/page-404', alt: \"Une vieille porte bleue entrouverte dans un mur de pierre\", cadrage: '53% 45%', sizes: '100vw', ratio: '16 / 9' })"
+  }
+}

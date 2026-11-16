@@ -1,0 +1,12 @@
+[
+ {
+  "nom": "ordinateur",
+  "seul": 8,
+  "souris": 3
+ },
+ {
+  "nom": "telephone",
+  "seul": 4,
+  "souris": 0
+ }
+]

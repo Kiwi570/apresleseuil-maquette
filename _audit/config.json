@@ -1,0 +1,6 @@
+{
+  "siteActuel": "apresleseuil.fr",
+  "pagesTypes": ["/", "/particuliers", "/professionnels", "/a-propos", "/contact"],
+  "effets": ["porte", "eclaire", "seuil", "arche", "avant-apres", "soleil", "enfilade", "bandeau", "boussole", "portrait", "fenetre"],
+  "grille": { "dispenses": {} }
+}

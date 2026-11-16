@@ -1,0 +1,186 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "a-propos",
+      "langue": "fr",
+      "fichier": "assets/partage/a-propos-fr.jpg",
+      "gabarit": "droite",
+      "image": "christel-bleu-960.webp",
+      "poids": 68888,
+      "sujet": {
+        "x": 662,
+        "y": 0,
+        "l": 473,
+        "h": 478
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 54,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/accueil-porte-1100.webp",
+      "poids": 83947,
+      "sujet": {
+        "x": 600,
+        "y": 135,
+        "l": 508,
+        "h": 495
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/contact-ouverture-1280.webp",
+      "poids": 57241,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "particuliers",
+      "langue": "fr",
+      "fichier": "assets/partage/particuliers-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/particuliers-ouverture-1280.webp",
+      "poids": 91233,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 266,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "professionnels",
+      "langue": "fr",
+      "fichier": "assets/partage/professionnels-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/pros-table-1280.webp",
+      "poids": 89816,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 602
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 266,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Version française",
+    "actionEntete": "Premier échange offert",
+    "actionCourte": "Rendez-vous",
+    "appeler": "Appeler",
+    "sommaire": "Le site",
+    "contact": "Nous contacter",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette : les formulaires sont simulés, rien n’est envoyé.",
+    "legal": "Mentions légales · Politique de confidentialité : à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Des lieux et des vies en transition",
+    "signature": "Des lieux et des vies en transition",
+    "lieu": "Largentière · Ardèche",
+    "premierEchange": "Premier échange offert",
+    "sansEngagement": "Gratuit et sans engagement · à distance ou dans le sud de l’Ardèche",
+    "fin": {
+      "titre": "Faisons connaissance.",
+      "texte": "Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.",
+      "action": "Prendre rendez-vous",
+      "ou": "ou appelez le"
+    }
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Après le Seuil · Des vies et des lieux en transition, Largentière (Ardèche)",
+      "description": "Accompagnement dans les transitions de vie et de lieux : organiser et valoriser un logement, désencombrer, se sentir mieux chez soi, coaching de transition, ateliers. Premier échange offert.",
+      "nav": "Accueil",
+      "partageAlt": "Après le Seuil : une porte bleue entrouverte sur la lumière",
+      "accroche": "Des vies et des lieux en transition"
+    },
+    "particuliers": {
+      "titre": "Particuliers · Après le Seuil",
+      "description": "Préparer un nouveau départ, se sentir mieux chez soi, faire de la place, retrouver un cap, ateliers créatifs : des accompagnements pour les moments où la vie change.",
+      "nav": "Particuliers",
+      "partageAlt": "Après le Seuil, accompagnements pour les particuliers",
+      "accroche": "Accompagner vos passages"
+    },
+    "professionnels": {
+      "titre": "Professionnels · Coaching d’entreprise · Après le Seuil",
+      "description": "Coaching individuel et d’équipe, ateliers et accompagnement dans la durée pour dirigeants, managers et équipes en période de transition.",
+      "nav": "Professionnels",
+      "partageAlt": "Après le Seuil, coaching d’entreprise",
+      "accroche": "Coaching d’entreprise"
+    },
+    "a-propos": {
+      "titre": "À propos · Christel Ketterlin · Après le Seuil",
+      "description": "Enseignement, management, architecture d’intérieur et coaching : le parcours de Christel Ketterlin et quelques réalisations.",
+      "nav": "À propos",
+      "partageAlt": "Christel Ketterlin, Après le Seuil",
+      "accroche": "Accompagner les passages, autrement"
+    },
+    "contact": {
+      "titre": "Contact · Premier échange offert · Après le Seuil",
+      "description": "Un premier échange gratuit et sans engagement, à distance ou en présentiel dans le sud de l’Ardèche. Réponse personnelle sous 48 heures.",
+      "nav": "Contact",
+      "partageAlt": "Après le Seuil, prendre rendez-vous",
+      "accroche": "Un premier échange, simplement"
+    },
+    "404": {
+      "titre": "Page introuvable · Après le Seuil",
+      "description": "Cette page n’existe pas.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "titre1": "Des vies et des lieux",
+      "titre2": "en transition",
+      "texte": "Il y a des moments où ce qui était ne convient plus, et où ce qui vient n’a pas encore trouvé sa forme. Après le Seuil vous accompagne pour traverser ces passages et leur donner une nouvelle forme.",
+      "action": "Premier échange offert",
+      "action2": "Les accompagnements",
+      "info": "Sans engagement · à distance ou dans le sud de l’Ardèche",
+      "alt": "Une porte bleue entrouverte sur une terrasse ensoleillée et des collines"
+    },
+    "situations": {
+      "titre": "Peut-être êtes-vous ici parce que…",
+      "s1": "Vous sentez qu’un changement professionnel devient nécessaire.",
+      "s2": "Un déménagement, une vente, une remise en location ou une entrée en EHPAD vous oblige à prendre beaucoup de décisions.",
+      "s3": "Votre maison ne correspond plus à votre façon de vivre.",
+      "s4": "Vous traversez une période où tout semble devoir être redéfini.",
+      "s5": "Vous avez besoin d’un espace pour vous évader, vous poser et retrouver une direction.",
+      "conclusion": "Quel que soit votre passage, vous n’avez pas à le traverser seul·e.",
+      "question": "Et si nous commencions simplement par en parler ?"
+    },
+    "seuil": {
+      "mot1": "Franchir",
+      "mot2": "le seuil",
+      "apres": "Chaque passage de vie peut devenir le point de départ d’une nouvelle étape, plus alignée.",
+      "alt": "Sous une arche de pierre, la vallée d’oliviers au lever du soleil"
+    },
+    "accompagnements": {
+      "titre": "À chaque passage, son accompagnement",
+      "texte": "Transformer un lieu, ou traverser un passage : deux portes d’entrée, souvent liées.",
+      "lieu": "Transformer un lieu",
+      "lieuSous": "Organisation, valorisation & décoration",
+      "passage": "Traverser un passage",
+      "passageSous": "Coaching & transition",
+      "voir": "Découvrir",
+      "pros": "Vous êtes une entreprise ou une équipe ?",
+      "prosLien": "Le coaching d’entreprise"
+    },
+    "avantApres": {
+      "surtitre": "Réalisations",
+      "titre": "Transformer, en partant de ce qui est déjà là",
+      "texte": "Relooking de meubles, réaménagement, désencombrement : quelques réalisations, avant et après.",
+      "consigne": "Faites glisser pour comparer",
+      "consigneTactile": "Glissez du doigt pour comparer",
+      "onglets": "Réalisations",
+      "dressing": "Le dressing",
+      "dressingLegende": "Désencombrer : trier et réorganiser un dressing débordant.",
+      "buffet": "Le buffet",
+      "buffetLegende": "Recycler et rénover : un buffet en bois verni repeint en bleu nuit.",
+      "bahut": "Le bahut",
+      "bahutLegende": "Recycler et rénover : un bahut sombre éclairci, avec cannage et tissu.",
+      "avant": "Avant",
+      "apres": "Après",
+      "lien": "Plus de réalisations"
+    },
+    "christel": {
+      "surtitre": "Qui vous accompagne",
+      "titre": "J’ai toujours accompagné les transformations.",
+      "texte1": "Transmettre, organiser, concevoir, guider, révéler le potentiel des lieux et des personnes. De l’enseignement au management, de la décoration à l’organisation des espaces, j’ai toujours eu à cœur d’aider à faire naître du sens et de l’harmonie.",
+      "texte2": "Après le Seuil est né de la convergence de toutes ces expériences.",
+      "signature": "Christel Ketterlin",
+      "action": "Mon parcours et mon travail"
+    },
+    "etapes": {
+      "titre": "Comment ça se passe",
+      "e1t": "Faisons connaissance",
+      "e1": "Un premier échange offert et sans engagement, pour comprendre votre situation et vos besoins.",
+      "e2t": "Un accompagnement sur mesure",
+      "e2": "Chaque situation est différente. Je vous propose un accompagnement adapté : un cadre, une durée et un tarif définis après ce premier échange.",
+      "e3t": "À votre rythme",
+      "e3": "En présentiel dans le sud de l’Ardèche ou en visio, étape par étape."
+    },
+    "pros": {
+      "surtitre": "Professionnels",
+      "titre": "Les entreprises traversent elles aussi des périodes de transition.",
+      "texte": "Une prise de poste, une réorganisation, des tensions dans une équipe, de nouvelles responsabilités, ou simplement le besoin de retrouver une dynamique collective.",
+      "action": "Le coaching d’entreprise"
+    },
+    "villa": {
+      "surtitre": "La Villa Après le Seuil",
+      "titre": "Séjourner pour se réparer",
+      "texte": "Venir à la Villa pour déposer, avancer, améliorer… La Villa est en rénovation : bientôt, nous pourrons vous y accueillir dans un cocon de bienveillance et d’échange.",
+      "badge": "En rénovation",
+      "action": "En savoir plus"
+    }
+  },
+  "particuliers": {
+    "surtitre": "Particuliers",
+    "titre1": "Accompagner",
+    "titre2": "vos passages",
+    "texte": "Un déménagement, une succession, une maison qui ne vous ressemble plus, une période où tout bouge : des accompagnements concrets, pour avancer sans avoir à tout porter seul·e.",
+    "action": "Premier échange offert",
+    "info": "Premier échange offert et sans engagement",
+    "sommaire": "Les accompagnements",
+    "etapesTitre": "Comment ça se passe",
+    "demarrer": "Démarrer",
+    "depart": {
+      "nav": "Nouveau départ",
+      "titre": "Préparer un nouveau départ",
+      "sous": "Organiser et valoriser un lieu pour la suite",
+      "contexte": "Déménagement, mise en vente ou en location, entrée d’un proche en établissement, décès ou succession.",
+      "l1": "Organiser le tri et le vidage d’un logement",
+      "l2": "Préparer une vente, une location ou une transmission",
+      "l3": "Valoriser le bien grâce au home staging",
+      "l4": "Coordonner les différentes démarches",
+      "phrase": "Avancer sans avoir à tout porter seul·e.",
+      "e1": "Faire le point sur la situation, les priorités et l’organisation à mettre en place.",
+      "e2": "Un accompagnement étape par étape, pendant plusieurs semaines.",
+      "e3": "Une orientation vers les bons professionnels : notaire, commissaire-priseur, diagnostiqueur, agence immobilière."
+    },
+    "chezsoi": {
+      "nav": "Chez soi",
+      "titre": "Se sentir mieux chez soi",
+      "sous": "Créer un intérieur qui vous ressemble",
+      "etiquette": "Aménagement & décoration",
+      "l1": "Améliorer la circulation et l’organisation des espaces",
+      "l2": "Adapter votre intérieur à une nouvelle étape de vie",
+      "l3": "Choisir les couleurs, le mobilier et la décoration",
+      "l4": "Transformer votre lieu en privilégiant ce qui est déjà présent",
+      "e1t": "Une première rencontre",
+      "e1": "Un échange sur vos envies, vos habitudes et ce qui ne vous convient plus.",
+      "e2t": "Des propositions personnalisées",
+      "e2": "Des solutions d’aménagement et d’ambiance, selon le lieu et le budget.",
+      "e3t": "La transformation",
+      "e3": "Un accompagnement dans les choix et la mise en place."
+    },
+    "place": {
+      "nav": "Faire de la place",
+      "titre": "Faire de la place",
+      "sous": "Alléger son intérieur pour retrouver de l’espace",
+      "etiquette": "Tri & désencombrement",
+      "l1": "Retrouver un intérieur plus serein et fonctionnel",
+      "l2": "Faire du tri sans vous sentir dépassé·e",
+      "l3": "Vous séparer d’objets chargés de souvenirs",
+      "l4": "Réorganiser votre espace selon vos besoins actuels",
+      "engagement": "Priorité au réemploi, au recyclage et aux dons auprès d’associations locales.",
+      "e1": "Évaluation de vos besoins, par téléphone ou à domicile.",
+      "e2": "Un devis personnalisé.",
+      "e3": "Le jour J, le tri se fait ensemble, à votre rythme.",
+      "e4": "Un échange de suivi après l’intervention, pour d’éventuels ajustements."
+    },
+    "cap": {
+      "nav": "Retrouver un cap",
+      "titre": "Retrouver un cap",
+      "sous": "Retrouver une direction quand tout change",
+      "etiquette": "Coaching de transition",
+      "intro": "Un espace pour faire le point, comprendre ce qui se joue et avancer vers une suite qui vous ressemble.",
+      "l1": "Traverser une période de changement",
+      "l2": "Retrouver de la clarté",
+      "l3": "Prendre du recul",
+      "l4": "Faire émerger vos propres choix",
+      "m1": "Premier échange offert",
+      "m2": "Des séances adaptées à votre rythme",
+      "m3": "Un accompagnement sur mesure, en présentiel ou en visio",
+      "m4": "Possibilité d’un séjour d’accompagnement à la Villa Après le Seuil"
+    },
+    "ateliers": {
+      "nav": "Ateliers",
+      "titre": "Créer et partager",
+      "sous": "Des ateliers pour faire, expérimenter et se retrouver",
+      "intro": "Des parenthèses pour faire autrement, créer de ses mains, échanger et prendre du temps pour soi. Dans un cadre chaleureux et en petit groupe.",
+      "t1": "Habiter autrement",
+      "t1d": "Organisation, désencombrement, décoration et petits projets autour de la maison.",
+      "t2": "Créer & transformer",
+      "t2d": "Relooking de meubles, décoration, détournement d’objets, réemploi.",
+      "t3": "Se retrouver et partager",
+      "t3d": "Des temps de rencontre autour des transitions de vie, de la créativité et du mieux-être.",
+      "note": "Les thèmes, les dates et les modalités changent avec les saisons : le programme est donné sur demande.",
+      "action": "Réserver sa place"
+    },
+    "villa": {
+      "titre": "Séjourner",
+      "sous": "Venir à la Villa pour déposer, avancer, améliorer…",
+      "texte": "La Villa est en rénovation. Bientôt, nous pourrons vous y accueillir dans un cocon de bienveillance et d’échange.",
+      "badge": "En rénovation",
+      "action": "Être tenu·e au courant"
+    }
+  },
+  "professionnels": {
+    "surtitre": "Entreprises & équipes",
+    "titre1": "Coaching",
+    "titre2": "d’entreprise",
+    "texte": "Les entreprises traversent elles aussi des périodes de transition : une prise de poste, une réorganisation, des tensions dans une équipe, de nouvelles responsabilités, ou simplement le besoin de retrouver une dynamique collective.",
+    "action": "Prendre contact",
+    "info": "Premier échange offert",
+    "intro": {
+      "titre": "Faire évoluer les personnes, faire avancer le collectif",
+      "texte": "Nous accompagnons dirigeants, managers et équipes pour prendre du recul, faire émerger des solutions et avancer ensemble."
+    },
+    "axes": {
+      "titre": "Accompagner autrement",
+      "a1": "Managers & dirigeants",
+      "a2": "Équipes",
+      "a3": "Transitions",
+      "a4": "Intelligence collective"
+    },
+    "formats": {
+      "titre": "Un accompagnement sur mesure",
+      "texte": "Après un premier échange, le format se choisit selon votre situation.",
+      "f1": "Coaching individuel",
+      "f2": "Coaching d’équipe",
+      "f3": "Ateliers",
+      "f4": "Accompagnement dans la durée"
+    },
+    "cadre": {
+      "titre": "Sortir du cadre pour penser autrement",
+      "texte": "Certaines équipes ont simplement besoin de changer d’environnement pour retrouver de l’espace, du dialogue et de nouvelles idées.",
+      "formats": "Ateliers · Journées d’équipe · Temps de réflexion dans un cadre différent du quotidien professionnel",
+      "action": "Prendre contact"
+    }
+  },
+  "apropos": {
+    "titre1": "Accompagner les passages,",
+    "titre2": "autrement.",
+    "texte1": "Il y a des moments où la vie invite à changer de place, de rythme ou de direction. Après le Seuil repose sur une idée simple : un changement, même subi, peut devenir l’occasion de construire quelque chose de plus juste pour soi.",
+    "texte2": "J’accompagne des personnes, des équipes et des projets dans leurs transitions personnelles, professionnelles ou liées au lieu de vie.",
+    "nom": "Christel Ketterlin",
+    "action": "Premier échange offert",
+    "info": "À distance ou dans le sud de l’Ardèche",
+    "volets": {
+      "titre": "Un parcours entre transmission, lieux et accompagnement",
+      "v1": "Transmission",
+      "v1d": "Issue de l’enseignement et du management, j’ai à cœur de transmettre et de faire grandir.",
+      "v2": "Les lieux",
+      "v2d": "Passionnée par l’habitat et la décoration, je crée des lieux qui soutiennent les transformations.",
+      "v3": "Le passage",
+      "v3d": "Une approche concrète pour traverser les changements de vie avec plus de clarté."
+    },
+    "parcours": {
+      "titre": "Parcours et certifications",
+      "p1": "Professeure des écoles, maîtresse formatrice",
+      "p2": "Architecte d’intérieur, décoratrice d’intérieur",
+      "p3": "MasterCoach ICI certifiée",
+      "p3e": "en cours",
+      "p4": "Coach professionnelle certifiée RNCP niveau 6",
+      "p4e": "en cours"
+    },
+    "realisations": {
+      "titre": "Quelques réalisations",
+      "texte": "Transformer un lieu, recycler et rénover, désencombrer, créer : des projets menés en Ardèche.",
+      "lieu": "Transformer un lieu",
+      "renover": "Recycler et rénover",
+      "creer": "Créer",
+      "entree": "Une entrée réaménagée",
+      "cuisine": "Une cuisine rénovée",
+      "sejour": "Un séjour rénové",
+      "valet": "Un valet de chambre",
+      "lampe": "Une suspension au crochet"
+    }
+  },
+  "contact": {
+    "titre1": "Un premier échange,",
+    "titre2": "simplement.",
+    "p1": "Gratuit et sans engagement",
+    "p2": "À distance ou en présentiel, dans le sud de l’Ardèche",
+    "p3": "Une réponse personnelle sous 48 heures",
+    "action": "Prendre rendez-vous",
+    "form": {
+      "titre": "Et si nous commencions par échanger ?",
+      "texte": "Décrivez en quelques mots ce qui vous amène : une période de changement, un besoin de clarté, le réaménagement de votre intérieur, ou un simple bilan.",
+      "e1": "Vous êtes",
+      "e1q": "Vous êtes…",
+      "particulier": "Un particulier",
+      "particulierD": "Pour vous ou pour un proche",
+      "entreprise": "Une entreprise ou une équipe",
+      "entrepriseD": "Dirigeant, manager, équipe",
+      "e2": "Votre passage",
+      "e2q": "Ce qui vous amène",
+      "e2aide": "Plusieurs choix possibles.",
+      "c_depart": "Préparer un nouveau départ",
+      "c_chezsoi": "Se sentir mieux chez soi",
+      "c_place": "Faire de la place",
+      "c_cap": "Retrouver un cap",
+      "c_atelier": "Un atelier",
+      "c_entreprise": "Coaching d’entreprise",
+      "c_villa": "La Villa",
+      "c_autre": "Je ne sais pas encore",
+      "format": "Pour le premier échange",
+      "f_distance": "À distance",
+      "f_presentiel": "En présentiel",
+      "f_egal": "Peu importe",
+      "e3": "Coordonnées",
+      "e3q": "Pour vous répondre",
+      "prenom": "Prénom",
+      "nom": "Nom",
+      "email": "E-mail",
+      "tel": "Téléphone (facultatif)",
+      "message": "Votre message",
+      "accord": "J’accepte que ces informations servent uniquement à me répondre.",
+      "donnees": "Vos informations restent confidentielles et ne servent que dans le cadre de cet échange. Politique de confidentialité : à compléter.",
+      "e4": "Récapitulatif",
+      "e4q": "Vérifiez votre demande",
+      "precedent": "Retour",
+      "suivant": "Continuer",
+      "envoyer": "Envoyer la demande",
+      "merci": "Merci, c’est noté.",
+      "merciTexte": "Maquette : rien n’a été envoyé. Sur le site définitif, Christel vous répondrait personnellement sous 48 heures.",
+      "recommencer": "Nouvelle demande"
+    },
+    "coord": {
+      "titre": "Nous contacter",
+      "telephone": "Téléphone",
+      "email": "E-mail",
+      "lieu": "Lieu",
+      "lieuTexte": "Largentière, Ardèche · rendez-vous à distance ou en présentiel dans le sud de l’Ardèche",
+      "delai": "Réponse personnelle sous 48 heures"
+    },
+    "valeurs": {
+      "titre": "Ce qui nous guide",
+      "v1": "Écoute bienveillante",
+      "v2": "Des solutions concrètes",
+      "v3": "Un accompagnement sur mesure",
+      "v4": "Des lieux et des vies en transition"
+    }
+  },
+  "introuvable": {
+    "titre": "Cette porte ne mène nulle part.",
+    "texte": "La page que vous cherchez a peut-être changé de place. Revenons au seuil.",
+    "retour": "Revenir à l’accueil",
+    "contact": "Nous contacter"
+  }
+}

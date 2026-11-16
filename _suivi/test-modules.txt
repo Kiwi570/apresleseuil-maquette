@@ -1,0 +1,9 @@
+{
+ "formats": "ok",
+ "sans-webgl": "n/a",
+ "console": "0 erreur",
+ "cls": 0.007,
+ "scenario": "ok",
+ "texte-12px": "ok",
+ "cibles-44px": "ok"
+}

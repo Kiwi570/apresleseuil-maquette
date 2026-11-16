@@ -1,0 +1,340 @@
+[
+ {
+  "source": "recu/logo-fonce.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Après le Seuil"
+ },
+ {
+  "source": "recu/apresleseuil-recu/christel-ketterlin-2.png",
+  "nom": "christel",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   640,
+   960
+  ],
+  "alt": "Christel Ketterlin, assise sur une table en bois, en chemise de lin claire",
+  "beaute": 4
+ },
+ {
+  "source": "recu/apresleseuil-recu/christel-ketterlin.png",
+  "nom": "christel-bleu",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   640,
+   960
+  ],
+  "alt": "Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit",
+  "beaute": 4
+ },
+ {
+  "source": "recu/apresleseuil-recu/villa-apres-seuil.png",
+  "nom": "villa",
+  "role": "galerie",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   960,
+   1180
+  ],
+  "mobile": "4:5",
+  "zone_texte": "haut",
+  "alt": "La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin",
+  "beaute": 4
+ },
+ {
+  "source": "recu/apresleseuil-recu/renovation-cuisine.jpg",
+  "nom": "real-cuisine",
+  "role": "galerie",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/entree-maison-amelioree.jpg",
+  "nom": "real-entree",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Entrée réaménagée avec un grand meuble bois et noir",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/sejour-renove.jpg",
+  "nom": "real-sejour",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Séjour rénové, îlot clair et suspension",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/valet-chambre.jpg",
+  "nom": "real-valet",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Valet de chambre en bois restauré",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/lampe-crochet.jpg",
+  "nom": "real-lampe",
+  "role": "galerie",
+  "ratio": "3:4",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Suspension réalisée au crochet au-dessus d'un lit",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/buffet-avant.png",
+  "nom": "buffet-avant",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le buffet avant : bois verni orangé",
+  "beaute": 2
+ },
+ {
+  "source": "recu/apresleseuil-recu/buffet-apres.jpg",
+  "nom": "buffet-apres",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le buffet après : repeint en bleu nuit, plateau bois naturel",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/bahut-avant.jpg",
+  "nom": "bahut-avant",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le bahut avant : bois sombre, vitrines chargées",
+  "beaute": 2
+ },
+ {
+  "source": "recu/apresleseuil-recu/bahut-apres.jpg",
+  "nom": "bahut-apres",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le bahut après : blanc, cannage et tissu à motifs",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/dressing-avant.png",
+  "nom": "dressing-avant",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le dressing avant : vêtements entassés au sol",
+  "beaute": 3
+ },
+ {
+  "source": "recu/apresleseuil-recu/dressing-apres.jpg",
+  "nom": "dressing-apres",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Le dressing après : vêtements rangés sur portants",
+  "beaute": 3
+ },
+ {
+  "source": "recu/grok/accueil-ouverture.jpg",
+  "nom": "grok/accueil-porte",
+  "role": "ouverture",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1100
+  ],
+  "page": "Accueil",
+  "emplacement": "ouverture, photo dans l'arche",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "Tall old wooden double door painted deep teal blue, both leaves half open, seen from inside a cool shaded room with limewashed walls and terracotta floor tiles; through the doorway a sunlit stone terrace, a potted olive tree and soft rounded blue hills in the distance, warm golden morning light pouring across the floor, the doorway centered in the frame",
+  "alt": "Une porte bleue grande ouverte sur une terrasse ensoleillée et les collines",
+  "beaute": 5
+ },
+ {
+  "source": "recu/grok/accueil-seuil.jpg",
+  "source_mobile": "recu/grok/accueil-seuil-mobile.jpg",
+  "nom": "grok/accueil-seuil",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "Accueil",
+  "emplacement": "image qui s'ouvre en plein écran",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "View from a shaded stone archway of an old house looking out onto a wide terrace and a valley of olive trees and dry-stone terraces at sunrise, soft mist in the valley, warm golden light flooding in, the dark stone arch framing the view in the foreground, calm sky in the upper third, southern France countryside only",
+  "alt": "La vallée d’oliviers et les collines au lever du soleil",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-depart.jpg",
+  "nom": "grok/carte-depart",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Préparer un nouveau départ",
+  "priorite": "Conseillée",
+  "consigne_scene": "A few cardboard moving boxes neatly stacked and tied with twine near an open door in a bright, almost empty room with old terracotta tiles and limewashed walls, a folded linen sheet on top, a potted olive tree by the door, morning light",
+  "alt": "Une carte dépliée et une boussole sur une table en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-chezsoi.jpg",
+  "nom": "grok/carte-chezsoi",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Se sentir mieux chez soi",
+  "priorite": "Conseillée",
+  "consigne_scene": "A calm living room corner: an old oak armchair with washed linen cushions, a low wooden table, an olive branch in a handmade ceramic vase, a limewashed wall in warm sand tones, a window with soft afternoon light",
+  "alt": "Un coin salon baigné de lumière : lin, coussins et branche d’olivier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-place.jpg",
+  "nom": "grok/carte-place",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Faire de la place",
+  "priorite": "Conseillée",
+  "consigne_scene": "Tidy open oak shelves with a few neatly folded linens, woven baskets and glass jars, one shelf left almost empty, sunlight from a side window on a limewashed wall, serene and airy",
+  "alt": "Des paniers en osier rangés au pied d’une échelle en bois",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/carte-cap.jpg",
+  "nom": "grok/carte-cap",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Retrouver un cap",
+  "priorite": "Conseillée",
+  "consigne_scene": "A simple wooden bench on a stone terrace facing a wide valley at dawn, an open notebook and a ceramic cup of tea on the bench, olive branches in the foreground, mist lying in the valley, nobody in the scene",
+  "alt": "Une boussole posée sur un rocher, face aux collines",
+  "beaute": 4,
+  "cadrage": [
+   45,
+   55
+  ]
+ },
+ {
+  "source": "recu/grok/carte-atelier.jpg",
+  "nom": "grok/carte-atelier",
+  "role": "carte-service",
+  "page": "Accueil et Particuliers",
+  "emplacement": "carte Créer et partager (ateliers)",
+  "priorite": "Conseillée",
+  "consigne_scene": "A large wooden workshop table in a bright stone room: an old chair being repainted in sage green, paint brushes in a jar, small pots of chalk paint, fabric scraps and balls of natural yarn, natural daylight, nobody in the scene",
+  "alt": "Pinceaux, bol en céramique et carnet sur une table d’atelier",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/particuliers-ouverture.jpg",
+  "source_mobile": "recu/grok/particuliers-ouverture-mobile.jpg",
+  "nom": "grok/particuliers-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "Particuliers",
+  "emplacement": "ouverture",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "Interior of an old stone house seen through a sequence of open doorways in a row, each room brighter than the previous one, limewashed walls, terracotta floor, a potted olive tree, warm morning light at the far end, calm empty space in the upper part",
+  "alt": "Une maison de pierre aux portes bleues, ouverte sur la vallée",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/pros-ouverture.jpg",
+  "source_mobile": "recu/grok/pros-ouverture-mobile.jpg",
+  "nom": "grok/pros-ouverture",
+  "role": "ouverture",
+  "ratio": "16:9",
+  "mobile": "9:16",
+  "page": "Professionnels",
+  "emplacement": "ouverture (bandeau sous le grand titre)",
+  "priorite": "Indispensable",
+  "gabarit": "ouverture",
+  "consigne_scene": "Bright meeting room in a renovated stone farmhouse, large windows open onto olive trees and low hills, a long oak table with notebooks, carafes of water and a paper flipchart left blank, chairs pushed back, nobody in the room, calm upper area",
+  "alt": "Une salle de réunion lumineuse dans une maison de pierre",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/pros-table.jpg",
+  "nom": "grok/pros-table",
+  "role": "section-fond",
+  "page": "Professionnels",
+  "emplacement": "section des quatre axes",
+  "priorite": "Conseillée",
+  "consigne_scene": "A long wooden table set outdoors under olive trees for a team work day: open notebooks, pencils, glass carafes of water, linen napkins, empty chairs, dappled late-morning light, nobody in the scene",
+  "alt": "Une grande table dressée sur une terrasse ombragée",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/contact-ouverture.jpg",
+  "nom": "grok/contact-ouverture",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "mobile": "4:5",
+  "page": "Contact",
+  "emplacement": "ouverture",
+  "priorite": "Indispensable",
+  "consigne_scene": "A small round wooden table by an open window with two ceramic cups of tea, a notebook and a pen, an olive branch in a glass, linen curtain moving in the breeze, soft morning light, an invitation to talk, nobody in the scene",
+  "alt": "Une tasse, un carnet ouvert et une branche d’olivier au soleil",
+  "beaute": 4
+ },
+ {
+  "source": "recu/grok/page-404.jpg",
+  "nom": "grok/page-404",
+  "role": "404",
+  "page": "404",
+  "emplacement": "image de la page introuvable",
+  "priorite": "Facultative",
+  "gabarit": "404",
+  "consigne_scene": "An old weathered wooden door painted faded teal blue, set in a dry-stone wall and left slightly ajar, a few olive leaves on the stone step, a glimpse of a sunny garden path through the gap",
+  "alt": "Une vieille porte bleue entrouverte dans un mur de pierre",
+  "beaute": 4
+ }
+]

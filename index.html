@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Après le Seuil · Des vies et des lieux en transition, Largentière (Ardèche)</title>
+<meta name="description" content="Accompagnement dans les transitions de vie et de lieux : organiser et valoriser un logement, désencombrer, se sentir mieux chez soi, coaching de transition, ateliers. Premier échange offert.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://apresleseuil-maquette.vercel.app/">
+<style>:root{--fond:#F5EFE4;--texte:#2A2622;--voile-fond:#163A44;--ouverture-fond:#163A44;--menu-fond:#F5EFE4}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="stylesheet" href="/assets/css/modules.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F5EFE4">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Après le Seuil">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Après le Seuil · Des vies et des lieux en transition, Largentière (Ardèche)">
+<meta property="og:description" content="Accompagnement dans les transitions de vie et de lieux : organiser et valoriser un logement, désencombrer, se sentir mieux chez soi, coaching de transition, ateliers. Premier échange offert.">
+<meta property="og:url" content="https://apresleseuil-maquette.vercel.app/">
+<meta property="og:image" content="https://apresleseuil-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Après le Seuil : une porte bleue entrouverte sur la lumière">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Après le Seuil","description":"Accompagnement dans les transitions de vie et de lieux : organisation, valorisation et décoration de lieux, désencombrement, coaching de transition, ateliers et coaching d'entreprise.","slogan":"Des lieux et des vies en transition","telephone":"+33643300396","email":"apresleseuil@gmail.com","address":{"@type":"PostalAddress","streetAddress":"1794 route de Vente Cual","postalCode":"07110","addressLocality":"Largentière","addressRegion":"Ardèche","addressCountry":"FR"},"areaServed":"Sud de l'Ardèche, et à distance","parentOrganization":{"@type":"Organization","name":"45NordEst","legalName":"45NordEst SASU"},"employee":{"@type":"Person","name":"Christel Ketterlin"}}</script>
+</head>
+<body id="haut" class="page-accueil">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="74" height="56"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-objet" data-ouverture-objet><svg class="arche-svg intro-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path pathLength="1" d="M180 470V202a164 164 0 0 1 328 0v158"/><path pathLength="1" d="M222 418V204a122 122 0 0 1 244 0v168"/><path pathLength="1" d="M268 470V204a76 76 0 0 1 152 0v174"/><path pathLength="1" d="M180 470h88"/><path pathLength="1" d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg></div>
+  <p class="ouverture-nom">Après le Seuil</p>
+  <p class="ouverture-ligne">Des lieux et des vies en transition</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Après le Seuil · Accueil" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="46" height="35"><span class="entete-nom">Après le Seuil</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/particuliers" data-libelle="Particuliers">Particuliers</a></li><li><a href="/professionnels" data-libelle="Professionnels">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--petit" href="/contact#rendez-vous" data-libelle="Contact"><span class="masque-etroit">Premier échange offert</span><span class="seul-etroit">Rendez-vous</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/particuliers" class="menu-lien" data-libelle="Particuliers">Particuliers</a></li><li style="--i:2"><a href="/professionnels" class="menu-lien" data-libelle="Professionnels">Professionnels</a></li><li style="--i:3"><a href="/a-propos" class="menu-lien" data-libelle="À propos">À propos</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact">Premier échange offert</a>
+  <a class="bouton bouton--contour" href="tel:+33643300396">Appeler 06 43 30 03 96</a></p>
+  <svg class="arche-svg menu-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero ecran" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre surtitre--clair" data-anime="gsap">Largentière · Ardèche</p>
+    <h1 class="hero-titre"><span class="ligne-masque"><span class="hero-ligne">Des vies et des lieux</span></span><span class="ligne-masque"><span class="hero-ligne"><em>en transition</em></span></span></h1>
+    <p class="hero-intro masque-ecran-tres-bas masque-petit-tel" data-anime="gsap">Il y a des moments où ce qui était ne convient plus, et où ce qui vient n’a pas encore trouvé sa forme. Après le Seuil vous accompagne pour traverser ces passages et leur donner une nouvelle forme.</p>
+    <div class="hero-actions" data-anime="gsap">
+      <a class="bouton bouton--or" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale data-survol="magnetique">Premier échange offert</a>
+      <a class="lien-fleche lien-fleche--clair" href="#accompagnements" data-sans-transition>Les accompagnements</a>
+    </div>
+    <p class="hero-info" data-info-cle data-anime="gsap">Sans engagement · à distance ou dans le sud de l’Ardèche</p>
+  </div>
+  <div class="hero-porte cadre-arche" data-effet="porte">
+    <svg class="contour hero-contour" viewBox="0 0 480 600" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true" data-visuel><path vector-effect="non-scaling-stroke" pathLength="1" d="M26 600V240a214 214 0 0 1 428 0v330"/><path vector-effect="non-scaling-stroke" pathLength="1" d="M8 560V240a232 232 0 0 1 464 0v300"/><path vector-effect="non-scaling-stroke" pathLength="1" d="M-20 596C110 580 190 535 300 522S440 492 500 452"/></svg>
+    <figure class="media hero-media arche-cadre" data-grok data-iris-centre style="--cadrage:50% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-porte-mobile-640.webp 640w, /assets/images/grok/accueil-porte-mobile-1080.webp 1080w" sizes="(max-width: 760px) 70vw, 34vw">
+    <img src="/assets/images/grok/accueil-porte-1100.webp" srcset="/assets/images/grok/accueil-porte-480.webp 480w, /assets/images/grok/accueil-porte-800.webp 800w, /assets/images/grok/accueil-porte-1100.webp 1100w" sizes="(max-width: 760px) 70vw, 34vw" alt="Une porte bleue entrouverte sur une terrasse ensoleillée et des collines" width="1100" height="1375" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="situations" id="situations">
+  <div class="conteneur situations-grille">
+    <div class="situations-tete">
+      <svg class="icone situations-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel data-fx="trace"><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg>
+      <h2 data-anime="lignes">Peut-être êtes-vous ici parce que…</h2>
+    </div>
+    <ol class="situations-liste">
+      <li class="situation" data-effet="eclaire"><svg class="icone situation-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg><span>Vous sentez qu’un changement professionnel devient nécessaire.</span></li><li class="situation" data-effet="eclaire"><svg class="icone situation-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg><span>Un déménagement, une vente, une remise en location ou une entrée en EHPAD vous oblige à prendre beaucoup de décisions.</span></li><li class="situation" data-effet="eclaire"><svg class="icone situation-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg><span>Votre maison ne correspond plus à votre façon de vivre.</span></li><li class="situation" data-effet="eclaire"><svg class="icone situation-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg><span>Vous traversez une période où tout semble devoir être redéfini.</span></li><li class="situation" data-effet="eclaire"><svg class="icone situation-porte" viewBox="0 0 40 52" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 50V20a14 14 0 0 1 28 0v30"/><path d="M2 50h36"/><path class="battant" d="M10 49V21a10 10 0 0 1 10-10v0a10 10 0 0 1 10 10v28z"/><circle class="poignee" cx="26" cy="32" r="1.2"/></svg><span>Vous avez besoin d’un espace pour vous évader, vous poser et retrouver une direction.</span></li>
+    </ol>
+  </div>
+  <div class="conteneur situations-fin">
+    <p class="situations-conclusion" data-anime="lignes">Quel que soit votre passage, vous n’avez pas à le traverser seul·e.</p>
+    <p class="situations-question" data-anime><a href="/contact#rendez-vous" class="lien-fleche" data-libelle="Contact">Et si nous commencions simplement par en parler ?</a></p>
+  </div>
+</section>
+<section class="seuil" id="seuil" data-scene data-entete-cache>
+  <div class="seuil-collant" data-collant data-plein-ecran>
+    <figure class="media seuil-media" data-grok data-effet="seuil" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/accueil-seuil-mobile-640.webp 640w, /assets/images/grok/accueil-seuil-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/accueil-seuil-1280.webp" srcset="/assets/images/grok/accueil-seuil-640.webp 640w, /assets/images/grok/accueil-seuil-1280.webp 1280w, /assets/images/grok/accueil-seuil-1920.webp 1920w" sizes="100vw" alt="Sous une arche de pierre, la vallée d’oliviers au lever du soleil" width="1280" height="720" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <p class="seuil-mots" aria-hidden="true"><span class="seuil-mot" data-cote="g">Franchir</span><span class="seuil-mot" data-cote="d"><em>le seuil</em></span></p>
+    <h2 class="visuellement-cache">Franchir le seuil</h2>
+    <p class="seuil-apres">Chaque passage de vie peut devenir le point de départ d’une nouvelle étape, plus alignée.</p>
+  </div>
+</section>
+<section class="accompagnements fond-sable" id="accompagnements">
+  <div class="conteneur">
+    <div class="section-tete">
+      <h2 data-anime="lignes">À chaque passage, son accompagnement</h2>
+      <p data-anime>Transformer un lieu, ou traverser un passage : deux portes d’entrée, souvent liées.</p>
+    </div>
+    <div class="groupes" aria-hidden="true">
+      <p class="groupe groupe--lieu"><span>Transformer un lieu</span><small>Organisation, valorisation &amp; décoration</small></p>
+      <p class="groupe groupe--passage"><span>Traverser un passage</span><small>Coaching &amp; transition</small></p>
+    </div>
+  </div>
+  <div class="cartes-piste" tabindex="0" role="region" aria-label="À chaque passage, son accompagnement">
+    <ul class="cartes" data-anime="cascade">
+      <li class="carte-arche carte-arche--lieu">
+        <a href="/particuliers#depart" data-libelle="Particuliers">
+          <figure class="media arche-cadre carte-media" data-grok data-effet="arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-depart-784.webp" srcset="/assets/images/grok/carte-depart-480.webp 480w, /assets/images/grok/carte-depart-640.webp 640w, /assets/images/grok/carte-depart-784.webp 784w" sizes="(max-width: 760px) 62vw, 20vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-groupe">Transformer un lieu</span>
+          <span class="carte-titre">Préparer un nouveau départ</span>
+          <span class="carte-sous">Organiser et valoriser un lieu pour la suite</span>
+          <span class="carte-voir">Découvrir</span>
+        </a>
+      </li><li class="carte-arche carte-arche--lieu">
+        <a href="/particuliers#chez-soi" data-libelle="Particuliers">
+          <figure class="media arche-cadre carte-media" data-grok data-effet="arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-chezsoi-784.webp" srcset="/assets/images/grok/carte-chezsoi-480.webp 480w, /assets/images/grok/carte-chezsoi-640.webp 640w, /assets/images/grok/carte-chezsoi-784.webp 784w" sizes="(max-width: 760px) 62vw, 20vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-groupe">Transformer un lieu</span>
+          <span class="carte-titre">Se sentir mieux chez soi</span>
+          <span class="carte-sous">Créer un intérieur qui vous ressemble</span>
+          <span class="carte-voir">Découvrir</span>
+        </a>
+      </li><li class="carte-arche carte-arche--lieu">
+        <a href="/particuliers#faire-de-la-place" data-libelle="Particuliers">
+          <figure class="media arche-cadre carte-media" data-grok data-effet="arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-place-784.webp" srcset="/assets/images/grok/carte-place-480.webp 480w, /assets/images/grok/carte-place-640.webp 640w, /assets/images/grok/carte-place-784.webp 784w" sizes="(max-width: 760px) 62vw, 20vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-groupe">Transformer un lieu</span>
+          <span class="carte-titre">Faire de la place</span>
+          <span class="carte-sous">Alléger son intérieur pour retrouver de l’espace</span>
+          <span class="carte-voir">Découvrir</span>
+        </a>
+      </li><li class="carte-arche carte-arche--passage">
+        <a href="/particuliers#retrouver-un-cap" data-libelle="Particuliers">
+          <figure class="media arche-cadre carte-media" data-grok data-effet="arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-cap-784.webp" srcset="/assets/images/grok/carte-cap-480.webp 480w, /assets/images/grok/carte-cap-640.webp 640w, /assets/images/grok/carte-cap-784.webp 784w" sizes="(max-width: 760px) 62vw, 20vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-groupe">Traverser un passage</span>
+          <span class="carte-titre">Retrouver un cap</span>
+          <span class="carte-sous">Retrouver une direction quand tout change</span>
+          <span class="carte-voir">Découvrir</span>
+        </a>
+      </li><li class="carte-arche carte-arche--passage">
+        <a href="/particuliers#ateliers" data-libelle="Particuliers">
+          <figure class="media arche-cadre carte-media" data-grok data-effet="arche" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/carte-atelier-784.webp" srcset="/assets/images/grok/carte-atelier-480.webp 480w, /assets/images/grok/carte-atelier-640.webp 640w, /assets/images/grok/carte-atelier-784.webp 784w" sizes="(max-width: 760px) 62vw, 20vw" alt="" width="784" height="1176" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+          <span class="carte-groupe">Traverser un passage</span>
+          <span class="carte-titre">Créer et partager</span>
+          <span class="carte-sous">Des ateliers pour faire, expérimenter et se retrouver</span>
+          <span class="carte-voir">Découvrir</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <p class="conteneur cartes-pros" data-anime>Vous êtes une entreprise ou une équipe ? <a href="/professionnels" class="lien-fleche" data-libelle="Professionnels">Le coaching d’entreprise</a></p>
+</section>
+<section class="ava-section" id="realisations">
+  <div class="conteneur ava-grille">
+    <div class="ava-texte">
+      <p class="surtitre" data-anime>Réalisations</p>
+      <h2 data-anime="lignes">Transformer, en partant de ce qui est déjà là</h2>
+      <p data-anime>Relooking de meubles, réaménagement, désencombrement : quelques réalisations, avant et après.</p>
+      <p class="ava-consigne" data-anime><span class="consigne-souris">Faites glisser pour comparer</span><span class="consigne-doigt">Glissez du doigt pour comparer</span></p>
+      <p data-anime><a href="/a-propos#realisations" class="lien-fleche" data-libelle="À propos">Plus de réalisations</a></p>
+    </div>
+    <div class="ava" data-module="avant-apres" data-mode="reglet" data-onglets data-onglets-libelle="Réalisations">
+      <div class="ava__onglets" data-ava-onglets></div>
+      <div class="ava__paires">
+        <figure class="ava__paire" data-titre="Le dressing">
+          <div class="ava__cadre" style="--ratio: 1 / 1" data-effet="avant-apres">
+            <div class="ava__vue ava__vue--avant"><img class="" src="/assets/images/dressing-avant-800.webp" srcset="/assets/images/dressing-avant-480.webp 480w, /assets/images/dressing-avant-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Avant : Le dressing avant : vêtements entassés au sol" loading="lazy" decoding="async"><span class="ava__etiquette">Avant</span></div>
+            <div class="ava__vue ava__vue--apres"><img class="" src="/assets/images/dressing-apres-800.webp" srcset="/assets/images/dressing-apres-480.webp 480w, /assets/images/dressing-apres-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Après : Le dressing après : vêtements rangés sur portants" loading="lazy" decoding="async"><span class="ava__etiquette">Après</span></div>
+          </div>
+          <figcaption class="ava__legende"><b>Le dressing</b><span>Désencombrer : trier et réorganiser un dressing débordant.</span></figcaption>
+        </figure><figure class="ava__paire" data-titre="Le buffet">
+          <div class="ava__cadre" style="--ratio: 1 / 1" data-effet="avant-apres">
+            <div class="ava__vue ava__vue--avant"><img class="" src="/assets/images/buffet-avant-800.webp" srcset="/assets/images/buffet-avant-480.webp 480w, /assets/images/buffet-avant-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Avant : Le buffet avant : bois verni orangé" loading="lazy" decoding="async"><span class="ava__etiquette">Avant</span></div>
+            <div class="ava__vue ava__vue--apres"><img class="" src="/assets/images/buffet-apres-800.webp" srcset="/assets/images/buffet-apres-480.webp 480w, /assets/images/buffet-apres-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Après : Le buffet après : repeint en bleu nuit, plateau bois naturel" loading="lazy" decoding="async"><span class="ava__etiquette">Après</span></div>
+          </div>
+          <figcaption class="ava__legende"><b>Le buffet</b><span>Recycler et rénover : un buffet en bois verni repeint en bleu nuit.</span></figcaption>
+        </figure><figure class="ava__paire" data-titre="Le bahut">
+          <div class="ava__cadre" style="--ratio: 1 / 1" data-effet="avant-apres">
+            <div class="ava__vue ava__vue--avant"><img class="" src="/assets/images/bahut-avant-800.webp" srcset="/assets/images/bahut-avant-480.webp 480w, /assets/images/bahut-avant-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Avant : Le bahut avant : bois sombre, vitrines chargées" loading="lazy" decoding="async"><span class="ava__etiquette">Avant</span></div>
+            <div class="ava__vue ava__vue--apres"><img class="" src="/assets/images/bahut-apres-800.webp" srcset="/assets/images/bahut-apres-480.webp 480w, /assets/images/bahut-apres-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" width="800" height="800" alt="Après : Le bahut après : blanc, cannage et tissu à motifs" loading="lazy" decoding="async"><span class="ava__etiquette">Après</span></div>
+          </div>
+          <figcaption class="ava__legende"><b>Le bahut</b><span>Recycler et rénover : un bahut sombre éclairci, avec cannage et tissu.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="christel fond-sable" id="christel">
+  <div class="conteneur christel-grille">
+    <div class="christel-portrait cadre-arche">
+      <svg class="contour " viewBox="0 0 480 600" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true" data-visuel data-fx="trace"><path vector-effect="non-scaling-stroke" d="M26 600V240a214 214 0 0 1 428 0v330"/><path vector-effect="non-scaling-stroke" d="M8 560V240a232 232 0 0 1 464 0v300"/><path vector-effect="non-scaling-stroke" d="M-20 596C110 580 190 535 300 522S440 492 500 452"/></svg>
+      <figure class="media arche-cadre christel-media" data-effet="arche" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/christel-960.webp" srcset="/assets/images/christel-480.webp 480w, /assets/images/christel-640.webp 640w, /assets/images/christel-960.webp 960w" sizes="(max-width: 760px) 72vw, 30vw" alt="Christel Ketterlin, assise sur une table en bois, en chemise de lin claire" width="960" height="1200" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="christel-texte">
+      <p class="surtitre" data-anime>Qui vous accompagne</p>
+      <h2 data-anime="lignes">J’ai toujours accompagné les transformations.</h2>
+      <p data-anime>Transmettre, organiser, concevoir, guider, révéler le potentiel des lieux et des personnes. De l’enseignement au management, de la décoration à l’organisation des espaces, j’ai toujours eu à cœur d’aider à faire naître du sens et de l’harmonie.</p>
+      <p data-anime>Après le Seuil est né de la convergence de toutes ces expériences.</p>
+      <p class="signature" data-anime>Christel Ketterlin</p>
+      <ul class="parcours-court" data-anime="cascade">
+        <li>Professeure des écoles, maîtresse formatrice</li><li>Architecte d’intérieur, décoratrice d’intérieur</li><li>MasterCoach ICI certifiée <small>(en cours)</small></li><li>Coach professionnelle certifiée RNCP niveau 6 <small>(en cours)</small></li>
+      </ul>
+      <p data-anime><a href="/a-propos" class="bouton bouton--contour" data-libelle="À propos">Mon parcours et mon travail</a></p>
+    </div>
+  </div>
+</section>
+<section class="etapes" id="etapes">
+  <div class="conteneur">
+    <h2 class="etapes-titre" data-anime="lignes">Comment ça se passe</h2>
+    <div class="etapes-scene">
+      <svg class="etapes-chemin" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-visuel><path d="M10 90 C 200 20, 330 20, 420 60 S 700 110, 800 60 S 1050 10, 1190 40"/></svg>
+      <ol class="etapes-liste" data-anime="cascade">
+        <li class="etape">
+          <span class="etape-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M8 40c0-8 5-13 12-13"/><circle cx="16" cy="17" r="6"/><path d="M56 40c0-8-5-13-12-13"/><circle cx="48" cy="17" r="6"/><path d="M26 44c2-6 10-6 12 0"/><path d="M32 44V34"/><path d="M32 36c-3-1-5-4-5-7 3 0 5 2 5 5"/><path d="M32 33c2-2 5-3 7-2-1 3-4 4-7 4"/><path d="M4 52h56"/></svg></span>
+          <span class="etape-num">1</span>
+          <h3>Faisons connaissance</h3>
+          <p>Un premier échange offert et sans engagement, pour comprendre votre situation et vos besoins.</p>
+        </li><li class="etape">
+          <span class="etape-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><circle cx="32" cy="30" r="22"/><circle cx="32" cy="30" r="16"/><path d="M32 6v6M32 48v6M8 30h6M50 30h6"/><path d="M32 16l4 14-4 14-4-14z"/><path d="M18 30l14-4 14 4-14 4z"/></svg></span>
+          <span class="etape-num">2</span>
+          <h3>Un accompagnement sur mesure</h3>
+          <p>Chaque situation est différente. Je vous propose un accompagnement adapté : un cadre, une durée et un tarif définis après ce premier échange.</p>
+        </li><li class="etape">
+          <span class="etape-icone"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><circle cx="46" cy="14" r="7"/><path d="M6 54c14-2 18-8 12-14s2-12 20-14"/><path d="M18 56c10 0 16-4 13-10s5-10 17-12"/><path d="M10 24c0-4 2-8 4-10M14 14c2 2 2 6 0 10M10 24c2-1 4-1 4 0"/></svg></span>
+          <span class="etape-num">3</span>
+          <h3>À votre rythme</h3>
+          <p>En présentiel dans le sud de l’Ardèche ou en visio, étape par étape.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+<section class="pros-bande fond-sable" id="professionnels">
+  <div class="conteneur pros-grille">
+    <figure class="media pros-media" data-grok data-fx="parallaxe" style="--cadrage:50% 55%">
+  <picture>
+    <img src="/assets/images/grok/pros-table-1280.webp" srcset="/assets/images/grok/pros-table-640.webp 640w, /assets/images/grok/pros-table-1280.webp 1280w, /assets/images/grok/pros-table-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 50vw" alt="Une grande table dressée sur une terrasse ombragée" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="pros-texte">
+      <p class="surtitre" data-anime>Professionnels</p>
+      <h2 data-anime="lignes">Les entreprises traversent elles aussi des périodes de transition.</h2>
+      <p data-anime>Une prise de poste, une réorganisation, des tensions dans une équipe, de nouvelles responsabilités, ou simplement le besoin de retrouver une dynamique collective.</p>
+      <ul class="pastilles" data-anime="cascade">
+        <li>Managers &amp; dirigeants</li><li>Équipes</li><li>Transitions</li><li>Intelligence collective</li>
+      </ul>
+      <p data-anime><a href="/professionnels" class="bouton" data-libelle="Professionnels">Le coaching d’entreprise</a></p>
+    </div>
+  </div>
+</section>
+<section class="villa" id="villa">
+  <div class="conteneur villa-grille">
+    <div class="villa-texte">
+      <p class="surtitre" data-anime>La Villa Après le Seuil</p>
+      <h2 data-anime="lignes">Séjourner pour se réparer</h2>
+      <p data-anime>Venir à la Villa pour déposer, avancer, améliorer… La Villa est en rénovation : bientôt, nous pourrons vous y accueillir dans un cocon de bienveillance et d’échange.</p>
+      <p data-anime><a href="/particuliers#villa" class="lien-fleche" data-libelle="Particuliers">En savoir plus</a></p>
+    </div>
+    <div class="villa-image">
+      <figure class="media villa-media" data-effet="arche" style="--cadrage:40% 60%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/villa-mobile-640.webp 640w" sizes="(max-width: 760px) 68vw, 500px">
+    <img src="/assets/images/villa-1180.webp" srcset="/assets/images/villa-640.webp 640w, /assets/images/villa-960.webp 960w, /assets/images/villa-1180.webp 1180w" sizes="(max-width: 760px) 68vw, 500px" alt="La terrasse de la Villa Après le Seuil au coucher du soleil, oliviers, mur de pierre sèche et montagnes au loin" width="1180" height="664" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <span class="villa-badge">En rénovation</span>
+    </div>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="fin-soleil" data-effet="soleil" aria-hidden="true">
+    <svg viewBox="-200 -200 400 400" class="soleil-rayons" data-visuel>
+      <line x1="110.0" y1="0.0" x2="190.0" y2="0.0"/><line x1="115.9" y1="31.1" x2="154.5" y2="41.4"/><line x1="95.3" y1="55.0" x2="164.5" y2="95.0"/><line x1="84.9" y1="84.9" x2="113.1" y2="113.1"/><line x1="55.0" y1="95.3" x2="95.0" y2="164.5"/><line x1="31.1" y1="115.9" x2="41.4" y2="154.5"/><line x1="0.0" y1="110.0" x2="0.0" y2="190.0"/><line x1="-31.1" y1="115.9" x2="-41.4" y2="154.5"/><line x1="-55.0" y1="95.3" x2="-95.0" y2="164.5"/><line x1="-84.9" y1="84.9" x2="-113.1" y2="113.1"/><line x1="-95.3" y1="55.0" x2="-164.5" y2="95.0"/><line x1="-115.9" y1="31.1" x2="-154.5" y2="41.4"/><line x1="-110.0" y1="0.0" x2="-190.0" y2="0.0"/><line x1="-115.9" y1="-31.1" x2="-154.5" y2="-41.4"/><line x1="-95.3" y1="-55.0" x2="-164.5" y2="-95.0"/><line x1="-84.9" y1="-84.9" x2="-113.1" y2="-113.1"/><line x1="-55.0" y1="-95.3" x2="-95.0" y2="-164.5"/><line x1="-31.1" y1="-115.9" x2="-41.4" y2="-154.5"/><line x1="-0.0" y1="-110.0" x2="-0.0" y2="-190.0"/><line x1="31.1" y1="-115.9" x2="41.4" y2="-154.5"/><line x1="55.0" y1="-95.3" x2="95.0" y2="-164.5"/><line x1="84.9" y1="-84.9" x2="113.1" y2="-113.1"/><line x1="95.3" y1="-55.0" x2="164.5" y2="-95.0"/><line x1="115.9" y1="-31.1" x2="154.5" y2="-41.4"/>
+    </svg>
+    <span class="soleil-disque"></span>
+  </div>
+  <div class="fin-texte conteneur">
+    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+    <h2 data-anime="lignes">Faisons connaissance.</h2>
+    <p data-anime>Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.</p>
+    <p class="fin-actions" data-anime>
+      <a class="bouton bouton--or" href="/contact#rendez-vous" data-libelle="Contact" data-survol="magnetique">Prendre rendez-vous</a>
+      <span class="fin-tel">ou appelez le <a href="tel:+33643300396">06 43 30 03 96</a></span>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <svg class="arche-svg pied-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+      <p class="pied-nom">Après le Seuil</p>
+      <p class="pied-signature">Des lieux et des vies en transition</p>
+    </div>
+    <div>
+      <p class="pied-titre">Nous contacter</p>
+      <p><a href="tel:+33643300396">06 43 30 03 96</a><br><a href="mailto:apresleseuil@gmail.com">apresleseuil@gmail.com</a><br><span class="pied-lieu">Largentière, Ardèche</span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/particuliers" data-libelle="Particuliers">Particuliers</a></li><li><a href="/professionnels" data-libelle="Professionnels">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos">À propos</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · Politique de confidentialité : à compléter</p>
+    <p>Maquette : les formulaires sont simulés, rien n’est envoyé.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643300396">Appeler</a>
+  <a class="bouton" href="/contact#rendez-vous" data-libelle="Contact">Rendez-vous</a>
+</div>
+</body>
+</html>

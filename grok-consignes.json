@@ -1,0 +1,217 @@
+{
+  "client": "Après le Seuil",
+  "activite": "bien-être",
+  "direction": "Le seuil doré",
+  "date": "2026-11-16T16:09:14.103Z",
+  "images": [
+    {
+      "nom": "accueil-porte",
+      "fichier": "accueil-ouverture.jpg",
+      "page": "Accueil",
+      "emplacement": "ouverture, photo dans l'arche",
+      "role": "ouverture",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Tall old wooden double door painted deep teal blue, both leaves half open, seen from inside a cool shaded room with limewashed walls and terracotta floor tiles; through the doorway a sunlit stone terrace, a potted olive tree and soft rounded blue hills in the distance, warm golden morning light pouring across the floor, the doorway centered in the frame. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-seuil",
+      "fichier": "accueil-seuil.jpg",
+      "page": "Accueil",
+      "emplacement": "image qui s'ouvre en plein écran (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "View from a shaded stone archway of an old house looking out onto a wide terrace and a valley of olive trees and dry-stone terraces at sunrise, soft mist in the valley, warm golden light flooding in, the dark stone arch framing the view in the foreground, calm sky in the upper third, southern France countryside only. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "accueil-seuil",
+      "fichier": "accueil-seuil-mobile.jpg",
+      "page": "Accueil",
+      "emplacement": "image qui s'ouvre en plein écran (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "paysage qui dérive"
+      ],
+      "consigne": "View from a shaded stone archway of an old house looking out onto a wide terrace and a valley of olive trees and dry-stone terraces at sunrise, soft mist in the valley, warm golden light flooding in, the dark stone arch framing the view in the foreground, calm sky in the upper third, southern France countryside only. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. A hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills landscape only, described by its real features: no tea plantation, no rice terraces, no high mountains, no tropical vegetation, no power lines, no pylons, no modern buildings. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-depart",
+      "fichier": "carte-depart.jpg",
+      "page": "Accueil et Particuliers",
+      "emplacement": "carte Préparer un nouveau départ",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A few cardboard moving boxes neatly stacked and tied with twine near an open door in a bright, almost empty room with old terracotta tiles and limewashed walls, a folded linen sheet on top, a potted olive tree by the door, morning light. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-chezsoi",
+      "fichier": "carte-chezsoi.jpg",
+      "page": "Accueil et Particuliers",
+      "emplacement": "carte Se sentir mieux chez soi",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A calm living room corner: an old oak armchair with washed linen cushions, a low wooden table, an olive branch in a handmade ceramic vase, a limewashed wall in warm sand tones, a window with soft afternoon light. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-place",
+      "fichier": "carte-place.jpg",
+      "page": "Accueil et Particuliers",
+      "emplacement": "carte Faire de la place",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Tidy open oak shelves with a few neatly folded linens, woven baskets and glass jars, one shelf left almost empty, sunlight from a side window on a limewashed wall, serene and airy. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-cap",
+      "fichier": "carte-cap.jpg",
+      "page": "Accueil et Particuliers",
+      "emplacement": "carte Retrouver un cap",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A simple wooden bench on a stone terrace facing a wide valley at dawn, an open notebook and a ceramic cup of tea on the bench, olive branches in the foreground, mist lying in the valley, nobody in the scene. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "carte-atelier",
+      "fichier": "carte-atelier.jpg",
+      "page": "Accueil et Particuliers",
+      "emplacement": "carte Créer et partager (ateliers)",
+      "role": "carte-service",
+      "format": "2:3",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A large wooden workshop table in a bright stone room: an old chair being repainted in sage green, paint brushes in a jar, small pots of chalk paint, fabric scraps and balls of natural yarn, natural daylight, nobody in the scene. Vertical composition, aspect ratio 2:3. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "particuliers-ouverture",
+      "fichier": "particuliers-ouverture.jpg",
+      "page": "Particuliers",
+      "emplacement": "ouverture (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Interior of an old stone house seen through a sequence of open doorways in a row, each room brighter than the previous one, limewashed walls, terracotta floor, a potted olive tree, warm morning light at the far end, calm empty space in the upper part. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "particuliers-ouverture",
+      "fichier": "particuliers-ouverture-mobile.jpg",
+      "page": "Particuliers",
+      "emplacement": "ouverture (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Interior of an old stone house seen through a sequence of open doorways in a row, each room brighter than the previous one, limewashed walls, terracotta floor, a potted olive tree, warm morning light at the far end, calm empty space in the upper part. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "pros-ouverture",
+      "fichier": "pros-ouverture.jpg",
+      "page": "Professionnels",
+      "emplacement": "ouverture (bandeau sous le grand titre) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Bright meeting room in a renovated stone farmhouse, large windows open onto olive trees and low hills, a long oak table with notebooks, carafes of water and a paper flipchart left blank, chairs pushed back, nobody in the room, calm upper area. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "pros-ouverture",
+      "fichier": "pros-ouverture-mobile.jpg",
+      "page": "Professionnels",
+      "emplacement": "ouverture (bandeau sous le grand titre) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "Bright meeting room in a renovated stone farmhouse, large windows open onto olive trees and low hills, a long oak table with notebooks, carafes of water and a paper flipchart left blank, chairs pushed back, nobody in the room, calm upper area. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "pros-table",
+      "fichier": "pros-table.jpg",
+      "page": "Professionnels",
+      "emplacement": "section des quatre axes",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "section-fond",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A long wooden table set outdoors under olive trees for a team work day: open notebooks, pencils, glass carafes of water, linen napkins, empty chairs, dappled late-morning light, nobody in the scene. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "contact-ouverture",
+      "fichier": "contact-ouverture.jpg",
+      "page": "Contact",
+      "emplacement": "ouverture",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A small round wooden table by an open window with two ceramic cups of tea, a notebook and a pen, an olive branch in a glass, linen curtain moving in the breeze, soft morning light, an invitation to talk, nobody in the scene. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "page-404",
+      "fichier": "page-404.jpg",
+      "page": "404",
+      "emplacement": "image de la page introuvable",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Facultative",
+      "gabarit": "404",
+      "pieges": [],
+      "consigne": "An old weathered wooden door painted faded teal blue, set in a dry-stone wall and left slightly ajar, a few olive leaves on the stone step, a glimpse of a sunny garden path through the gap. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, warm, calm and hopeful, quietly elegant mood, palette of warm ivory, pale sand, limewashed stone, olive green, a deep teal-blue painted door, small touches of golden ochre, soft golden morning light with long gentle shadows, tactile limewashed walls, old oak wood, washed linen, terracotta floor tiles, dry stone, handmade ceramic, set in a hillside village landscape of southern France with dry-stone terraces, olive and chestnut trees and low rounded blue hills on a mild sunny day in late autumn, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

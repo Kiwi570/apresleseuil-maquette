@@ -1,0 +1,42 @@
+… fichiers
+  fait en 0 s
+… grille
+  fait en 34 s
+… mesures
+  23/66
+  48/66
+  64/66
+  fait en 93 s
+… mesures:balayage
+  fait en 31 s
+… films
+  fait en 132 s
+… bords
+  fait en 64 s
+… parcours:intro
+  fait en 62 s
+… parcours:menu
+  fait en 4 s
+… parcours:liens
+  fait en 131 s
+… parcours:hauteur
+  fait en 40 s
+… parcours:projet
+  fait en 11 s
+… ecran
+  fait en 33 s
+… fluidite
+  fait en 183 s
+… mouvement
+  fait en 126 s
+… vitesse
+  fait en 15 s
+… captures
+  fait en 138 s
+… safari
+  fait en 0 s
+
+Échecs : 9 · À regarder : 30 · Non lancé : 1
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --pages=/,/a-propos,/contact,/particuliers,/professionnels --seulement=fichiers,mesures
+Rapport : /home/claude/apresleseuil-maquette/_audit/rapport/rapport.md (passe 20261116-170050-standard)
+FIN 1

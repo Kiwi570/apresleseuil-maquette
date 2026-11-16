@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>À propos · Christel Ketterlin · Après le Seuil</title>
+<meta name="description" content="Enseignement, management, architecture d’intérieur et coaching : le parcours de Christel Ketterlin et quelques réalisations.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://apresleseuil-maquette.vercel.app/a-propos">
+<style>:root{--fond:#F5EFE4;--texte:#2A2622;--voile-fond:#163A44;--ouverture-fond:#163A44;--menu-fond:#F5EFE4}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F5EFE4">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Après le Seuil">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="À propos · Christel Ketterlin · Après le Seuil">
+<meta property="og:description" content="Enseignement, management, architecture d’intérieur et coaching : le parcours de Christel Ketterlin et quelques réalisations.">
+<meta property="og:url" content="https://apresleseuil-maquette.vercel.app/a-propos">
+<meta property="og:image" content="https://apresleseuil-maquette.vercel.app/assets/partage/a-propos-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Christel Ketterlin, Après le Seuil">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Après le Seuil","description":"Accompagnement dans les transitions de vie et de lieux : organisation, valorisation et décoration de lieux, désencombrement, coaching de transition, ateliers et coaching d'entreprise.","slogan":"Des lieux et des vies en transition","telephone":"+33643300396","email":"apresleseuil@gmail.com","address":{"@type":"PostalAddress","streetAddress":"1794 route de Vente Cual","postalCode":"07110","addressLocality":"Largentière","addressRegion":"Ardèche","addressCountry":"FR"},"areaServed":"Sud de l'Ardèche, et à distance","parentOrganization":{"@type":"Organization","name":"45NordEst","legalName":"45NordEst SASU"},"employee":{"@type":"Person","name":"Christel Ketterlin"}}</script>
+</head>
+<body id="haut" class="page-a-propos">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="74" height="56"><span data-voile-libelle>À propos</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-objet" data-ouverture-objet><svg class="arche-svg intro-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path pathLength="1" d="M180 470V202a164 164 0 0 1 328 0v158"/><path pathLength="1" d="M222 418V204a122 122 0 0 1 244 0v168"/><path pathLength="1" d="M268 470V204a76 76 0 0 1 152 0v174"/><path pathLength="1" d="M180 470h88"/><path pathLength="1" d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg></div>
+  <p class="ouverture-nom">Après le Seuil</p>
+  <p class="ouverture-ligne">Des lieux et des vies en transition</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" aria-label="Après le Seuil · Accueil" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="46" height="35"><span class="entete-nom">Après le Seuil</span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/particuliers" data-libelle="Particuliers">Particuliers</a></li><li><a href="/professionnels" data-libelle="Professionnels">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos" aria-current="page">À propos</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton bouton--petit" href="/contact#rendez-vous" data-libelle="Contact"><span class="masque-etroit">Premier échange offert</span><span class="seul-etroit">Rendez-vous</span></a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/particuliers" class="menu-lien" data-libelle="Particuliers">Particuliers</a></li><li style="--i:2"><a href="/professionnels" class="menu-lien" data-libelle="Professionnels">Professionnels</a></li><li style="--i:3"><a href="/a-propos" class="menu-lien" data-libelle="À propos" aria-current="page">À propos</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-actions"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact">Premier échange offert</a>
+  <a class="bouton bouton--contour" href="tel:+33643300396">Appeler 06 43 30 03 96</a></p>
+  <svg class="arche-svg menu-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ap-ouverture" id="debut">
+  <div class="conteneur ap-grille">
+    <div class="ap-portrait cadre-arche" data-iris-centre>
+      <svg class="contour ap-contour" viewBox="0 0 480 600" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true" data-visuel><path vector-effect="non-scaling-stroke" pathLength="1" d="M26 600V240a214 214 0 0 1 428 0v330"/><path vector-effect="non-scaling-stroke" pathLength="1" d="M8 560V240a232 232 0 0 1 464 0v300"/><path vector-effect="non-scaling-stroke" pathLength="1" d="M-20 596C110 580 190 535 300 522S440 492 500 452"/></svg>
+      <figure class="media arche-cadre ap-media" data-effet="portrait" style="--cadrage:50% 30%">
+  <picture>
+    <img src="/assets/images/christel-bleu-960.webp" srcset="/assets/images/christel-bleu-480.webp 480w, /assets/images/christel-bleu-640.webp 640w, /assets/images/christel-bleu-960.webp 960w" sizes="(max-width: 760px) 64vw, 34vw" alt="Portrait de Christel Ketterlin, souriante, devant un mur bleu nuit" width="960" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    </div>
+    <div class="ap-texte">
+      <p class="surtitre" data-anime="gsap">Christel Ketterlin</p>
+      <h1 class="ap-titre"><span class="ligne-masque"><span class="titre-ligne">Accompagner les passages,</span></span><span class="ligne-masque"><span class="titre-ligne"><em>autrement.</em></span></span></h1>
+      <p class="masque-ecran-bas masque-petit-tel" data-anime="gsap">Il y a des moments où la vie invite à changer de place, de rythme ou de direction. Après le Seuil repose sur une idée simple : un changement, même subi, peut devenir l’occasion de construire quelque chose de plus juste pour soi.</p>
+      <p class="masque-ecran-tres-bas masque-petit-tel" data-anime="gsap">J’accompagne des personnes, des équipes et des projets dans leurs transitions personnelles, professionnelles ou liées au lieu de vie.</p>
+      <p class="actions" data-anime="gsap"><a class="bouton" href="/contact#rendez-vous" data-libelle="Contact" data-action-principale>Premier échange offert</a> <span class="info-cle" data-info-cle>À distance ou dans le sud de l’Ardèche</span></p>
+    </div>
+  </div>
+</section>
+<section class="volets fond-sable" id="volets">
+  <div class="conteneur">
+    <h2 class="volets-titre" data-anime="lignes">Un parcours entre transmission, lieux et accompagnement</h2>
+    <ol class="volets-liste" data-anime="cascade">
+      <li class="volet">
+        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M8 50c6-4 10-4 14 0M56 50c-6-4-10-4-14 0"/><path d="M10 50V38c0-4 3-6 6-6M54 50V38c0-4-3-6-6-6"/><path d="M42 6C30 10 24 22 26 38l4-2c-2-12 4-24 12-30z"/><path d="M28 30l6-4M30 22l6-3"/></svg></span>
+        <h3>Transmission</h3>
+        <p>Issue de l’enseignement et du management, j’ai à cœur de transmettre et de faire grandir.</p>
+      </li><li class="volet">
+        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><path d="M6 30L32 8l26 22"/><path d="M12 25v29h40V25"/><path d="M27 54V40a5 5 0 0 1 10 0v14"/><path d="M46 14v-5h5v10"/></svg></span>
+        <h3>Les lieux</h3>
+        <p>Passionnée par l’habitat et la décoration, je crée des lieux qui soutiennent les transformations.</p>
+      </li><li class="volet">
+        <span class="volet-arche"><svg class="icone " viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-visuel><circle cx="46" cy="14" r="7"/><path d="M6 54c14-2 18-8 12-14s2-12 20-14"/><path d="M18 56c10 0 16-4 13-10s5-10 17-12"/><path d="M10 24c0-4 2-8 4-10M14 14c2 2 2 6 0 10M10 24c2-1 4-1 4 0"/></svg></span>
+        <h3>Le passage</h3>
+        <p>Une approche concrète pour traverser les changements de vie avec plus de clarté.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+<section class="parcours" id="parcours">
+  <div class="conteneur parcours-grille">
+    <h2 data-anime="lignes">Parcours et certifications</h2>
+    <div class="parcours-cadre">
+    <svg class="parcours-trait" viewBox="0 0 4 400" preserveAspectRatio="none" aria-hidden="true" data-fx="trace" data-visuel><path d="M2 0V400"/></svg>
+    <ol class="parcours-liste">
+      <li data-anime><span class="parcours-point" aria-hidden="true"></span><span class="parcours-nom">Professeure des écoles, maîtresse formatrice</span></li><li data-anime><span class="parcours-point" aria-hidden="true"></span><span class="parcours-nom">Architecte d’intérieur, décoratrice d’intérieur</span></li><li data-anime><span class="parcours-point" aria-hidden="true"></span><span class="parcours-nom">MasterCoach ICI certifiée</span><span class="parcours-encours">en cours</span></li><li data-anime><span class="parcours-point" aria-hidden="true"></span><span class="parcours-nom">Coach professionnelle certifiée RNCP niveau 6</span><span class="parcours-encours">en cours</span></li>
+    </ol>
+    </div>
+  </div>
+</section>
+<section class="realisations fond-sable" id="realisations">
+  <div class="conteneur">
+    <div class="section-tete">
+      <h2 data-anime="lignes">Quelques réalisations</h2>
+      <p data-anime>Transformer un lieu, recycler et rénover, désencombrer, créer : des projets menés en Ardèche.</p>
+    </div>
+    <ul class="mosaique" data-anime="cascade">
+      <li class="mosaique-item mosaique-item--1">
+        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/real-entree-800.webp" srcset="/assets/images/real-entree-480.webp 480w, /assets/images/real-entree-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Entrée réaménagée avec un grand meuble bois et noir" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><span class="mosaique-cat">Transformer un lieu</span>Une entrée réaménagée</p>
+      </li><li class="mosaique-item mosaique-item--2">
+        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/real-cuisine-1200.webp" srcset="/assets/images/real-cuisine-480.webp 480w, /assets/images/real-cuisine-800.webp 800w, /assets/images/real-cuisine-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 30vw" alt="Cuisine rénovée : façades claires, crédence en carreaux de ciment, plan de travail noir" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><span class="mosaique-cat">Transformer un lieu</span>Une cuisine rénovée</p>
+      </li><li class="mosaique-item mosaique-item--3">
+        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/real-sejour-800.webp" srcset="/assets/images/real-sejour-480.webp 480w, /assets/images/real-sejour-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Séjour rénové, îlot clair et suspension" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><span class="mosaique-cat">Transformer un lieu</span>Un séjour rénové</p>
+      </li><li class="mosaique-item mosaique-item--4">
+        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/real-valet-800.webp" srcset="/assets/images/real-valet-480.webp 480w, /assets/images/real-valet-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Valet de chambre en bois restauré" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><span class="mosaique-cat">Recycler et rénover</span>Un valet de chambre</p>
+      </li><li class="mosaique-item mosaique-item--5">
+        <figure class="media mosaique-media" data-fx="vitesse" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/real-lampe-800.webp" srcset="/assets/images/real-lampe-480.webp 480w, /assets/images/real-lampe-800.webp 800w" sizes="(max-width: 760px) 80vw, 30vw" alt="Suspension réalisée au crochet au-dessus d&#39;un lit" width="800" height="1067" loading="lazy" decoding="async">
+  </picture>
+</figure>
+        <p><span class="mosaique-cat">Créer</span>Une suspension au crochet</p>
+      </li>
+    </ul>
+    <p class="note" data-anime><a href="/#realisations" class="lien-fleche" data-libelle="Accueil">Transformer, en partant de ce qui est déjà là</a></p>
+  </div>
+</section>
+<section class="fin" id="fin">
+  <div class="fin-soleil" data-effet="soleil" aria-hidden="true">
+    <svg viewBox="-200 -200 400 400" class="soleil-rayons" data-visuel>
+      <line x1="110.0" y1="0.0" x2="190.0" y2="0.0"/><line x1="115.9" y1="31.1" x2="154.5" y2="41.4"/><line x1="95.3" y1="55.0" x2="164.5" y2="95.0"/><line x1="84.9" y1="84.9" x2="113.1" y2="113.1"/><line x1="55.0" y1="95.3" x2="95.0" y2="164.5"/><line x1="31.1" y1="115.9" x2="41.4" y2="154.5"/><line x1="0.0" y1="110.0" x2="0.0" y2="190.0"/><line x1="-31.1" y1="115.9" x2="-41.4" y2="154.5"/><line x1="-55.0" y1="95.3" x2="-95.0" y2="164.5"/><line x1="-84.9" y1="84.9" x2="-113.1" y2="113.1"/><line x1="-95.3" y1="55.0" x2="-164.5" y2="95.0"/><line x1="-115.9" y1="31.1" x2="-154.5" y2="41.4"/><line x1="-110.0" y1="0.0" x2="-190.0" y2="0.0"/><line x1="-115.9" y1="-31.1" x2="-154.5" y2="-41.4"/><line x1="-95.3" y1="-55.0" x2="-164.5" y2="-95.0"/><line x1="-84.9" y1="-84.9" x2="-113.1" y2="-113.1"/><line x1="-55.0" y1="-95.3" x2="-95.0" y2="-164.5"/><line x1="-31.1" y1="-115.9" x2="-41.4" y2="-154.5"/><line x1="-0.0" y1="-110.0" x2="-0.0" y2="-190.0"/><line x1="31.1" y1="-115.9" x2="41.4" y2="-154.5"/><line x1="55.0" y1="-95.3" x2="95.0" y2="-164.5"/><line x1="84.9" y1="-84.9" x2="113.1" y2="-113.1"/><line x1="95.3" y1="-55.0" x2="164.5" y2="-95.0"/><line x1="115.9" y1="-31.1" x2="154.5" y2="-41.4"/>
+    </svg>
+    <span class="soleil-disque"></span>
+  </div>
+  <div class="fin-texte conteneur">
+    <svg class="arche-svg fin-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-fx="trace"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+    <h2 data-anime="lignes">Faisons connaissance.</h2>
+    <p data-anime>Un premier échange sans engagement, pour comprendre votre situation et vos besoins. Le premier échange est offert.</p>
+    <p class="fin-actions" data-anime>
+      <a class="bouton bouton--or" href="/contact#rendez-vous" data-libelle="Contact" data-survol="magnetique">Prendre rendez-vous</a>
+      <span class="fin-tel">ou appelez le <a href="tel:+33643300396">06 43 30 03 96</a></span>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <svg class="arche-svg pied-arche" viewBox="40 20 620 470" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M180 470V202a164 164 0 0 1 328 0v158"/><path d="M222 418V204a122 122 0 0 1 244 0v168"/><path d="M268 470V204a76 76 0 0 1 152 0v174"/><path d="M180 470h88"/><path d="M60 470c100-18 170-65 284-80s196-28 291-75"/></svg>
+      <p class="pied-nom">Après le Seuil</p>
+      <p class="pied-signature">Des lieux et des vies en transition</p>
+    </div>
+    <div>
+      <p class="pied-titre">Nous contacter</p>
+      <p><a href="tel:+33643300396">06 43 30 03 96</a><br><a href="mailto:apresleseuil@gmail.com">apresleseuil@gmail.com</a><br><span class="pied-lieu">Largentière, Ardèche</span></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/particuliers" data-libelle="Particuliers">Particuliers</a></li><li><a href="/professionnels" data-libelle="Professionnels">Professionnels</a></li><li><a href="/a-propos" data-libelle="À propos" aria-current="page">À propos</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · Politique de confidentialité : à compléter</p>
+    <p>Maquette : les formulaires sont simulés, rien n’est envoyé.</p>
+    <p><a href="#haut" data-sans-transition>Retour en haut</a></p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33643300396">Appeler</a>
+  <a class="bouton" href="/contact#rendez-vous" data-libelle="Contact">Rendez-vous</a>
+</div>
+</body>
+</html>

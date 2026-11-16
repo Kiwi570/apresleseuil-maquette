@@ -1,0 +1,27 @@
+{
+ "@context": "https://schema.org",
+ "@type": "ProfessionalService",
+ "name": "Après le Seuil",
+ "description": "Accompagnement dans les transitions de vie et de lieux : organisation, valorisation et décoration de lieux, désencombrement, coaching de transition, ateliers et coaching d'entreprise.",
+ "slogan": "Des lieux et des vies en transition",
+ "telephone": "+33643300396",
+ "email": "apresleseuil@gmail.com",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "1794 route de Vente Cual",
+  "postalCode": "07110",
+  "addressLocality": "Largentière",
+  "addressRegion": "Ardèche",
+  "addressCountry": "FR"
+ },
+ "areaServed": "Sud de l'Ardèche, et à distance",
+ "parentOrganization": {
+  "@type": "Organization",
+  "name": "45NordEst",
+  "legalName": "45NordEst SASU"
+ },
+ "employee": {
+  "@type": "Person",
+  "name": "Christel Ketterlin"
+ }
+}
